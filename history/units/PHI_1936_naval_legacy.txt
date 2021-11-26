@@ -1,0 +1,42 @@
+units = {
+	fleet = {
+		name = "1st Fleet"
+		naval_base = 10265
+		task_force = {
+			name = "1st Fleet"
+			location = 10265
+			ship = { name = "Balayán" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = PHI } } }
+			ship = { name = "Apo" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = PHI } } }
+			ship = { name = "Bilirán" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = PHI } } }
+			ship = { name = "Apo 2" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = PHI } } }
+			ship = { name = "Bulusán" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = PHI } } }
+			ship = { name = "Hibok-Hibok" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = PHI } } }
+			ship = { name = "Mayón" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = PHI } } }
+			ship = { name = "Pinatubo" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = PHI } } }
+			ship = { name = "Purísima Concepción" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = PHI } } }
+			ship = { name = "Taal" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = PHI } } }
+			ship = { name = "Taaleño" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = PHI } } }
+		}
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = destroyer_1
+			creator = "PHI"
+		}
+		requested_factories = 3
+		progress = 0.25
+		amount = 10
+	}
+	add_equipment_production = {
+		equipment = {
+			type = battleship_1
+			creator = "PHI"
+		}
+		requested_factories = 8
+		progress = 0.25
+		amount = 3
+	}
+}

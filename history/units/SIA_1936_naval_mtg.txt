@@ -1,0 +1,25 @@
+units = {
+	fleet = {
+		name = "1st Fleet"
+		naval_base = 7408
+		task_force = {
+			name = "1st Fleet"
+			location = 7408
+			ship = { name = "Ratchaburi" definition = destroyer start_experience_factor = 0.05 equipment = { ship_hull_light_1 = { amount = 1 owner = SIA version_name = "Early Destroyer" } } }
+			ship = { name = "Phetchaburi" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = SIA version_name = "Early Destroyer" } } }
+		}
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_light_1
+			creator = "SIA"
+			version_name = "Early Destroyer"
+		}
+		requested_factories = 3
+		progress = 0.25
+		amount = 10
+	}
+}

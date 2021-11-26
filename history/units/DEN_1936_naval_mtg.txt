@@ -1,0 +1,50 @@
+units = {
+	fleet = {
+		name = "1st Fleet"
+		naval_base = 6287
+		task_force = {
+			name = "1st Fleet"
+			location = 6287
+			ship = { name = "Århus" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_2 = { amount = 1 owner = DEN version_name = "1936 Battleship" } } }
+			ship = { name = "Ålborg" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_2 = { amount = 1 owner = DEN version_name = "1936 Battleship" } } }
+			ship = { name = "Ulrik Christian Gyldenløve" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_2 = { amount = 1 owner = DEN version_name = "1936 Battleship" } } }
+			ship = { name = "Fyn" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_2 = { amount = 1 owner = DEN version_name = "1936 Battleship" } } }
+			ship = { name = "Odense" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_2 = { amount = 1 owner = DEN version_name = "1936 Battleship" } } }
+			ship = { name = "Fredriksberg" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_2 = { amount = 1 owner = DEN version_name = "1936 Battleship" } } }
+			ship = { name = "Esbjerg" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_2 = { amount = 1 owner = DEN version_name = "1936 Battleship" } } }
+			ship = { name = "3rd Copenhagen Dreadnought" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_2 = { amount = 1 owner = DEN version_name = "1936 Battleship" } } }
+			ship = { name = "St. Thomas" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = DEN version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Valkyrien" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = DEN version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Søeormen" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = DEN version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Susåen" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = DEN version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Gudenåen" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = DEN version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Herluf Trolle" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = DEN version_name = "1936 Light Cruiser" } } }
+			ship = { name = "1st Flensburg Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = DEN version_name = "1936 Light Cruiser" } } }
+			ship = { name = "2nd Flensburg Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = DEN version_name = "1936 Light Cruiser" } } }
+			ship = { name = "1st Copenhagen Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = DEN version_name = "1936 Light Cruiser" } } }
+		}
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_light_2
+			creator = "DEN"
+			version_name = "1936 Destroyer"
+		}
+		requested_factories = 3
+		progress = 0.25
+		amount = 10
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_heavy_2
+			creator = "DEN"
+			version_name = "1936 Battleship"
+		}
+		requested_factories = 8
+		progress = 0.25
+		amount = 3
+	}
+}

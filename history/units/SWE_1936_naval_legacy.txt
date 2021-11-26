@@ -1,0 +1,47 @@
+units = {
+	fleet = {
+		name = "1st Fleet"
+		naval_base = 6050
+		task_force = {
+			name = "1st Fleet"
+			location = 6050
+			ship = { name = "Clas Eriksson Fleming" definition = battleship equipment = { battleship_2 = { amount = 1 owner = SWE } } }
+			ship = { name = "Axel Nilsson Ryning" definition = battleship equipment = { battleship_2 = { amount = 1 owner = SWE } } }
+			ship = { name = "Carl Carlsson Gyllenhielm" definition = battleship equipment = { battleship_2 = { amount = 1 owner = SWE } } }
+			ship = { name = "Gustaf Otto Stenbock" definition = battleship equipment = { battleship_2 = { amount = 1 owner = SWE } } }
+			ship = { name = "Lorentz Creutz" definition = battleship equipment = { battleship_2 = { amount = 1 owner = SWE } } }
+			ship = { name = "Hans Wachtmeister af Johannishus" definition = battleship equipment = { battleship_2 = { amount = 1 owner = SWE } } }
+			ship = { name = "Henrik af Trolle" definition = battleship equipment = { battleship_2 = { amount = 1 owner = SWE } } }
+			ship = { name = "1st Umeå Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_2 = { amount = 1 owner = SWE } } }
+			ship = { name = "Claes Uggla" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = SWE } } }
+			ship = { name = "Psilander" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = SWE } } }
+			ship = { name = "Claes Horn" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = SWE } } }
+			ship = { name = "Jacob Bakke" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = SWE } } }
+			ship = { name = "Fylgia" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = SWE } } }
+			ship = { name = "Tre Kronor" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = SWE } } }
+			ship = { name = "Göta Lejon" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = SWE } } }
+			ship = { name = "Östersund" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = SWE } } }
+		}
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = destroyer_2
+			creator = "SWE"
+		}
+		requested_factories = 3
+		progress = 0.25
+		amount = 10
+	}
+	add_equipment_production = {
+		equipment = {
+			type = battleship_2
+			creator = "SWE"
+		}
+		requested_factories = 8
+		progress = 0.25
+		amount = 3
+	}
+}

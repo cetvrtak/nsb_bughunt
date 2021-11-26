@@ -1,0 +1,95 @@
+units = {
+	fleet = {
+		name = "5th Fleet"
+		naval_base = 3151
+		task_force = {
+			name = "5th Fleet"
+			location = 3151
+			ship = { name = "Volya" definition = battleship equipment = { battleship_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "Novorossiysk" definition = battleship equipment = { battleship_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "Alekseev" definition = battleship equipment = { battleship_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "Bogatyr" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "Dnepr" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "Pamiyat Azova" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "Rurik" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+		}
+	}
+	fleet = {
+		name = "1st Fleet"
+		naval_base = 9340
+		task_force = {
+			name = "1st Fleet"
+			location = 9340
+			ship = { name = "Arkhangel’sk" definition = battleship equipment = { battleship_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "Mariya" definition = battleship equipment = { battleship_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "Ekaterina" definition = battleship equipment = { battleship_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "Velikaya" definition = battleship equipment = { battleship_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "Svobodnaya Rossiya" definition = battleship equipment = { battleship_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "Aleksander" definition = battleship equipment = { battleship_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "Gangut" definition = battleship equipment = { battleship_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "Sevastopol" definition = battleship equipment = { battleship_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "Petropavlovsk" definition = battleship equipment = { battleship_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "Soyuz" definition = battleship equipment = { battleship_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "Ukraina" definition = battleship equipment = { battleship_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "Rossiya" definition = battleship equipment = { battleship_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "Belarussia" definition = battleship equipment = { battleship_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "Chesma" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "Sissoi Veliky" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "Poltava" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "Sinop" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "Ekaterina II" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "Pallada" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "General-Admiral" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "Alexander Nevski" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "Oleg" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "Gromoboi" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "Askold" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "Aurora" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "Boyarin" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "Diana" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "Volga" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "Kinburn" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "Navarin" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "Admiral Kornilov" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "Almaz" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "Asia" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "Novaya Zemlya" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "Varyag" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "Izmail" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "Bayan" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "Novik" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "Vityaz" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+			ship = { name = "Nakhimov" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SOV } } }
+		}
+	}
+	fleet = {
+		name = "2nd Fleet"
+		naval_base = 4073
+		task_force = {
+			name = "2nd Fleet"
+			location = 593
+			ship = { name = "Potemkin" definition = battleship equipment = { battleship_1 = { amount = 1 owner = SOV } } }
+		}
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = destroyer_2
+			creator = "SOV"
+		}
+		requested_factories = 3
+		progress = 0.25
+		amount = 10
+	}
+	add_equipment_production = {
+		equipment = {
+			type = battleship_1
+			creator = "SOV"
+		}
+		requested_factories = 8
+		progress = 0.25
+		amount = 3
+	}
+}

@@ -1,0 +1,251 @@
+units = {
+	fleet = {
+		name = "East Coast Fleet"
+		naval_base = 3957
+		task_force = {
+			name = "East Coast Fleet"
+			location = 3957
+			ship = { name = "1st Norfolk Dreadnought" definition = battleship start_experience_factor = 0.14695 equipment = { ship_hull_heavy_2 = { amount = 1 owner = USA version_name = "1936 Battleship" } } }
+			ship = { name = "Washington" definition = battleship start_experience_factor = 0.14791 equipment = { ship_hull_heavy_2 = { amount = 1 owner = USA version_name = "1936 Battleship" } } }
+			ship = { name = "1st Baltimore Dreadnought" definition = battleship start_experience_factor = 0.15764 equipment = { ship_hull_heavy_2 = { amount = 1 owner = USA version_name = "1936 Battleship" } } }
+			ship = { name = "West Virginia" definition = battleship start_experience_factor = 0.15895 equipment = { ship_hull_heavy_2 = { amount = 1 owner = USA version_name = "1936 Battleship" } } }
+			ship = { name = "1st Washington Dreadnought" definition = battleship start_experience_factor = 0.15548 equipment = { ship_hull_heavy_2 = { amount = 1 owner = USA version_name = "1936 Battleship" } } }
+			ship = { name = "Maryland" definition = battleship start_experience_factor = 0.15137 equipment = { ship_hull_heavy_2 = { amount = 1 owner = USA version_name = "1936 Battleship" } } }
+			ship = { name = "California" definition = battleship start_experience_factor = 0.15018 equipment = { ship_hull_heavy_2 = { amount = 1 owner = USA version_name = "1936 Battleship" } } }
+			ship = { name = "1st Long Island Dreadnought" definition = battleship start_experience_factor = 0.15067 equipment = { ship_hull_heavy_2 = { amount = 1 owner = USA version_name = "1936 Battleship" } } }
+			ship = { name = "Colorado" definition = battleship start_experience_factor = 0.16254 equipment = { ship_hull_heavy_2 = { amount = 1 owner = USA version_name = "1936 Battleship" } } }
+			ship = { name = "1st Boston Dreadnought" definition = battleship start_experience_factor = 0.15986 equipment = { ship_hull_heavy_2 = { amount = 1 owner = USA version_name = "1936 Battleship" } } }
+			ship = { name = "1st Lewiston Dreadnought" definition = battleship start_experience_factor = 0.16561 equipment = { ship_hull_heavy_2 = { amount = 1 owner = USA version_name = "1936 Battleship" } } }
+			ship = { name = "2nd Norfolk Dreadnought" definition = battleship start_experience_factor = 0.16383 equipment = { ship_hull_heavy_2 = { amount = 1 owner = USA version_name = "1936 Battleship" } } }
+			ship = { name = "1st Wilmington Dreadnought" definition = battleship start_experience_factor = 0.17561 equipment = { ship_hull_heavy_2 = { amount = 1 owner = USA version_name = "1936 Battleship" } } }
+			ship = { name = "2nd Baltimore Dreadnought" definition = battleship start_experience_factor = 0.165 equipment = { ship_hull_heavy_2 = { amount = 1 owner = USA version_name = "1936 Battleship" } } }
+			ship = { name = "1st Savannah Dreadnought" definition = battleship start_experience_factor = 0.1637 equipment = { ship_hull_heavy_2 = { amount = 1 owner = USA version_name = "1936 Battleship" } } }
+			ship = { name = "2nd Washington Dreadnought" definition = battleship start_experience_factor = 0.14963 equipment = { ship_hull_heavy_2 = { amount = 1 owner = USA version_name = "1936 Battleship" } } }
+			ship = { name = "1st Tampa Dreadnought" definition = battleship start_experience_factor = 0.17386 equipment = { ship_hull_heavy_2 = { amount = 1 owner = USA version_name = "1936 Battleship" } } }
+			ship = { name = "2nd Atlantic City Dreadnought" definition = battleship start_experience_factor = 0.16485 equipment = { ship_hull_heavy_2 = { amount = 1 owner = USA version_name = "1936 Battleship" } } }
+			ship = { name = "1st Biloxi Dreadnought" definition = battleship start_experience_factor = 0.16168 equipment = { ship_hull_heavy_2 = { amount = 1 owner = USA version_name = "1936 Battleship" } } }
+			ship = { name = "2nd Long Island Dreadnought" definition = battleship start_experience_factor = 0.16104 equipment = { ship_hull_heavy_2 = { amount = 1 owner = USA version_name = "1936 Battleship" } } }
+			ship = { name = "1st Mobile Dreadnought" definition = battleship start_experience_factor = 0.15563 equipment = { ship_hull_heavy_2 = { amount = 1 owner = USA version_name = "1936 Battleship" } } }
+			ship = { name = "2nd Boston Dreadnought" definition = battleship start_experience_factor = 0.16892 equipment = { ship_hull_heavy_2 = { amount = 1 owner = USA version_name = "1936 Battleship" } } }
+			ship = { name = "2nd Lewiston Dreadnought" definition = battleship start_experience_factor = 0.15676 equipment = { ship_hull_heavy_2 = { amount = 1 owner = USA version_name = "1936 Battleship" } } }
+			ship = { name = "Texas" definition = battleship start_experience_factor = 0.23616 equipment = { ship_hull_heavy_2 = { amount = 1 owner = USA version_name = "1936 Battleship" } } }
+			ship = { name = "2nd San Antonio Dreadnought" definition = battleship start_experience_factor = 0.23616 equipment = { ship_hull_heavy_2 = { amount = 1 owner = USA version_name = "1936 Battleship" } } }
+			ship = { name = "3rd Norfolk Dreadnought" definition = battleship start_experience_factor = 0.21806 equipment = { ship_hull_heavy_2 = { amount = 1 owner = USA version_name = "1936 Battleship" } } }
+			ship = { name = "2nd New Orleans Dreadnought" definition = battleship start_experience_factor = 0.21806 equipment = { ship_hull_heavy_2 = { amount = 1 owner = USA version_name = "1936 Battleship" } } }
+			ship = { name = "3rd Baltimore Dreadnought" definition = battleship start_experience_factor = 0.23616 equipment = { ship_hull_heavy_2 = { amount = 1 owner = USA version_name = "1936 Battleship" } } }
+			ship = { name = "3rd Atlantic City Dreadnought" definition = battleship start_experience_factor = 0.23616 equipment = { ship_hull_heavy_2 = { amount = 1 owner = USA version_name = "1936 Battleship" } } }
+			ship = { name = "3rd Long Island Dreadnought" definition = battleship start_experience_factor = 0.23616 equipment = { ship_hull_heavy_2 = { amount = 1 owner = USA version_name = "1936 Battleship" } } }
+			ship = { name = "2nd San Antonio Cruiser" definition = light_cruiser start_experience_factor = 0.10115 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = USA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "2nd Tampa Cruiser" definition = light_cruiser start_experience_factor = 0.09238 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = USA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "2nd Savannah Cruiser" definition = light_cruiser start_experience_factor = 0.09359 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = USA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "2nd New Orleans Cruiser" definition = light_cruiser start_experience_factor = 0.0912 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = USA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "2nd Wilmington Cruiser" definition = light_cruiser start_experience_factor = 0.10326 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = USA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "2nd Norfolk Cruiser" definition = light_cruiser start_experience_factor = 0.08869 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = USA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Montgomery" definition = light_cruiser start_experience_factor = 0.0807 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = USA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Galveston" definition = light_cruiser start_experience_factor = 0.08641 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = USA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Detroit" definition = light_cruiser start_experience_factor = 0.07182 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = USA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Tacoma" definition = light_cruiser start_experience_factor = 0.07404 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = USA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "1st Mobile Cruiser" definition = light_cruiser start_experience_factor = 0.0737 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = USA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Marblehead" definition = light_cruiser start_experience_factor = 0.0893 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = USA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "1st Savannah Cruiser" definition = light_cruiser start_experience_factor = 0.08041 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = USA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "1st Atlantic City Cruiser" definition = light_cruiser start_experience_factor = 0.09313 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = USA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "1st Wilmington Cruiser" definition = light_cruiser start_experience_factor = 0.08772 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = USA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "1st Long Island Cruiser" definition = light_cruiser start_experience_factor = 0.08937 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = USA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "1st Norfolk Cruiser" definition = light_cruiser start_experience_factor = 0.0717 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = USA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "1st Boston Cruiser" definition = light_cruiser start_experience_factor = 0.09946 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = USA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "1st Baltimore Cruiser" definition = light_cruiser start_experience_factor = 0.09283 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = USA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "2nd Washington Cruiser" definition = light_cruiser start_experience_factor = 0.08029 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = USA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "1st Lewiston Cruiser" definition = light_cruiser start_experience_factor = 0.08731 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = USA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "2nd Atlantic City Cruiser" definition = light_cruiser start_experience_factor = 0.10327 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = USA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "2nd Long Island Cruiser" definition = light_cruiser start_experience_factor = 0.10487 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = USA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "2nd Boston Cruiser" definition = light_cruiser start_experience_factor = 0.10467 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = USA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "2nd Lewiston Cruiser" definition = light_cruiser start_experience_factor = 0.10721 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = USA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "1st San Antonio Cruiser" definition = light_cruiser start_experience_factor = 0.11513 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = USA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "2nd Mobile Cruiser" definition = light_cruiser start_experience_factor = 0.10898 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = USA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "1st New Orleans Cruiser" definition = light_cruiser start_experience_factor = 0.10189 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = USA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "1st Biloxi Cruiser" definition = light_cruiser start_experience_factor = 0.1076 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = USA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "3rd Atlantic City Cruiser" definition = light_cruiser start_experience_factor = 0.10404 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = USA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "3rd Tampa Cruiser" definition = light_cruiser start_experience_factor = 0.10117 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = USA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "3rd Savannah Cruiser" definition = light_cruiser start_experience_factor = 0.09783 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = USA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "3rd Long Island Cruiser" definition = light_cruiser start_experience_factor = 0.10265 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = USA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "3rd Wilmington Cruiser" definition = light_cruiser start_experience_factor = 0.10783 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = USA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "3rd Boston Cruiser" definition = light_cruiser start_experience_factor = 0.11803 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = USA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "3rd Norfolk Cruiser" definition = light_cruiser start_experience_factor = 0.11894 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = USA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "3rd Lewiston Cruiser" definition = light_cruiser start_experience_factor = 0.10267 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = USA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "3rd Baltimore Cruiser" definition = light_cruiser start_experience_factor = 0.10338 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = USA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "4th Washington Cruiser" definition = light_cruiser start_experience_factor = 0.10397 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = USA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "4th Atlantic City Cruiser" definition = light_cruiser start_experience_factor = 0.1049 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = USA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "1st Balboa Cruiser" definition = light_cruiser start_experience_factor = 0.09788 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = USA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "4th Long Island Cruiser" definition = light_cruiser start_experience_factor = 0.09854 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = USA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "4th Boston Cruiser" definition = light_cruiser start_experience_factor = 0.11596 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = USA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "4th Lewiston Cruiser" definition = light_cruiser start_experience_factor = 0.10018 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = USA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "3rd San Antonio Cruiser" definition = light_cruiser start_experience_factor = 0.10987 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = USA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "3rd New Orleans Cruiser" definition = light_cruiser start_experience_factor = 0.1097 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = USA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "3rd Biloxi Cruiser" definition = light_cruiser start_experience_factor = 0.10282 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = USA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "4th Mobile Cruiser" definition = light_cruiser start_experience_factor = 0.09569 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = USA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "4th Tampa Cruiser" definition = light_cruiser start_experience_factor = 0.10423 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = USA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "4th Savannah Cruiser" definition = light_cruiser start_experience_factor = 0.11206 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = USA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "4th Wilmington Cruiser" definition = light_cruiser start_experience_factor = 0.11433 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = USA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "4th Norfolk Cruiser" definition = light_cruiser start_experience_factor = 0.11488 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = USA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "4th Baltimore Cruiser" definition = light_cruiser start_experience_factor = 0.10669 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = USA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "5th Washington Cruiser" definition = light_cruiser start_experience_factor = 0.10733 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = USA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "5th Atlantic City Cruiser" definition = light_cruiser start_experience_factor = 0.09975 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = USA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "5th Lewiston Cruiser" definition = light_cruiser start_experience_factor = 0.10929 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = USA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "3rd Balboa Cruiser" definition = light_cruiser start_experience_factor = 0.10141 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = USA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "4th San Antonio Cruiser" definition = light_cruiser start_experience_factor = 0.15849 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = USA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "4th New Orleans Cruiser" definition = light_cruiser start_experience_factor = 0.15801 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = USA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "5th Balboa Cruiser" definition = light_cruiser start_experience_factor = 0.15849 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = USA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Baltimore" definition = light_cruiser start_experience_factor = 0.23616 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = USA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "6th San Antonio Cruiser" definition = light_cruiser start_experience_factor = 0.21806 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = USA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "6th New Orleans Cruiser" definition = light_cruiser start_experience_factor = 0.21806 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = USA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "6th Biloxi Cruiser" definition = light_cruiser start_experience_factor = 0.23616 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = USA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "7th Mobile Cruiser" definition = light_cruiser start_experience_factor = 0.23616 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = USA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "7th Tampa Cruiser" definition = light_cruiser start_experience_factor = 0.23616 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = USA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "7th Savannah Cruiser" definition = light_cruiser start_experience_factor = 0.23616 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = USA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "7th Wilmington Cruiser" definition = light_cruiser start_experience_factor = 0.23616 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = USA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "7th Norfolk Cruiser" definition = light_cruiser start_experience_factor = 0.21806 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = USA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "7th Baltimore Cruiser" definition = light_cruiser start_experience_factor = 0.23616 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = USA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "8th Boston Cruiser" definition = light_cruiser start_experience_factor = 0.21806 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = USA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "8th Lewiston Cruiser" definition = light_cruiser start_experience_factor = 0.23616 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = USA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "6th Balboa Cruiser" definition = light_cruiser start_experience_factor = 0.21806 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = USA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "5th Long Island Cruiser" definition = light_cruiser start_experience_factor = 0.10879 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = USA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "5th Boston Cruiser" definition = light_cruiser start_experience_factor = 0.11792 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = USA version_name = "1936 Light Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "West Coast Fleet"
+		naval_base = 610
+		task_force = {
+			name = "West Coast Fleet"
+			location = 610
+			ship = { name = "New Mexico" definition = battleship start_experience_factor = 0.18547 equipment = { ship_hull_heavy_2 = { amount = 1 owner = USA version_name = "1936 Battleship" } } }
+			ship = { name = "Mississippi" definition = battleship start_experience_factor = 0.21217 equipment = { ship_hull_heavy_2 = { amount = 1 owner = USA version_name = "1936 Battleship" } } }
+			ship = { name = "1st Seattle Dreadnought" definition = battleship start_experience_factor = 0.20661 equipment = { ship_hull_heavy_2 = { amount = 1 owner = USA version_name = "1936 Battleship" } } }
+			ship = { name = "1st Portland Dreadnought" definition = battleship start_experience_factor = 0.2082 equipment = { ship_hull_heavy_2 = { amount = 1 owner = USA version_name = "1936 Battleship" } } }
+			ship = { name = "1st Eureka Dreadnought" definition = battleship start_experience_factor = 0.21063 equipment = { ship_hull_heavy_2 = { amount = 1 owner = USA version_name = "1936 Battleship" } } }
+			ship = { name = "2nd Seattle Dreadnought" definition = battleship start_experience_factor = 0.21674 equipment = { ship_hull_heavy_2 = { amount = 1 owner = USA version_name = "1936 Battleship" } } }
+			ship = { name = "2nd Eureka Dreadnought" definition = battleship start_experience_factor = 0.20638 equipment = { ship_hull_heavy_2 = { amount = 1 owner = USA version_name = "1936 Battleship" } } }
+			ship = { name = "3rd Eureka Dreadnought" definition = battleship start_experience_factor = 0.21109 equipment = { ship_hull_heavy_2 = { amount = 1 owner = USA version_name = "1936 Battleship" } } }
+			ship = { name = "1st Atlantic City Dreadnought" definition = battleship start_experience_factor = 0.20361 equipment = { ship_hull_heavy_2 = { amount = 1 owner = USA version_name = "1936 Battleship" } } }
+			ship = { name = "South Carolina" definition = battleship start_experience_factor = 0.16522 equipment = { ship_hull_heavy_2 = { amount = 1 owner = USA version_name = "1936 Battleship" } } }
+			ship = { name = "Michigan" definition = battleship start_experience_factor = 0.16542 equipment = { ship_hull_heavy_2 = { amount = 1 owner = USA version_name = "1936 Battleship" } } }
+			ship = { name = "Delaware" definition = battleship start_experience_factor = 0.18151 equipment = { ship_hull_heavy_2 = { amount = 1 owner = USA version_name = "1936 Battleship" } } }
+			ship = { name = "North Dakota" definition = battleship start_experience_factor = 0.16853 equipment = { ship_hull_heavy_2 = { amount = 1 owner = USA version_name = "1936 Battleship" } } }
+			ship = { name = "Florida" definition = battleship start_experience_factor = 0.17317 equipment = { ship_hull_heavy_2 = { amount = 1 owner = USA version_name = "1936 Battleship" } } }
+			ship = { name = "Utah" definition = battleship start_experience_factor = 0.19807 equipment = { ship_hull_heavy_2 = { amount = 1 owner = USA version_name = "1936 Battleship" } } }
+			ship = { name = "Wyoming" definition = battleship start_experience_factor = 0.20822 equipment = { ship_hull_heavy_2 = { amount = 1 owner = USA version_name = "1936 Battleship" } } }
+			ship = { name = "Arkansas" definition = battleship start_experience_factor = 0.21299 equipment = { ship_hull_heavy_2 = { amount = 1 owner = USA version_name = "1936 Battleship" } } }
+			ship = { name = "New York" definition = battleship start_experience_factor = 0.20772 equipment = { ship_hull_heavy_2 = { amount = 1 owner = USA version_name = "1936 Battleship" } } }
+			ship = { name = "Nevada" definition = battleship start_experience_factor = 0.20442 equipment = { ship_hull_heavy_2 = { amount = 1 owner = USA version_name = "1936 Battleship" } } }
+			ship = { name = "Oklahoma" definition = battleship start_experience_factor = 0.21522 equipment = { ship_hull_heavy_2 = { amount = 1 owner = USA version_name = "1936 Battleship" } } }
+			ship = { name = "Pennsylvania" definition = battleship start_experience_factor = 0.21645 equipment = { ship_hull_heavy_2 = { amount = 1 owner = USA version_name = "1936 Battleship" } } }
+			ship = { name = "Idaho" definition = battleship start_experience_factor = 0.20128 equipment = { ship_hull_heavy_2 = { amount = 1 owner = USA version_name = "1936 Battleship" } } }
+			ship = { name = "Tennessee" definition = battleship start_experience_factor = 0.20686 equipment = { ship_hull_heavy_2 = { amount = 1 owner = USA version_name = "1936 Battleship" } } }
+			ship = { name = "3rd Seattle Dreadnought" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_2 = { amount = 1 owner = USA version_name = "1936 Battleship" } } }
+			ship = { name = "4th Eureka Dreadnought" definition = battleship start_experience_factor = 0.29235 equipment = { ship_hull_heavy_2 = { amount = 1 owner = USA version_name = "1936 Battleship" } } }
+			ship = { name = "4th Seattle Dreadnought" definition = battleship start_experience_factor = 0.29643 equipment = { ship_hull_heavy_2 = { amount = 1 owner = USA version_name = "1936 Battleship" } } }
+			ship = { name = "2nd Portland Dreadnought" definition = battleship start_experience_factor = 0.29235 equipment = { ship_hull_heavy_2 = { amount = 1 owner = USA version_name = "1936 Battleship" } } }
+			ship = { name = "5th Eureka Dreadnought" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_2 = { amount = 1 owner = USA version_name = "1936 Battleship" } } }
+			ship = { name = "1st San Antonio Dreadnought" definition = battleship start_experience_factor = 0.1934 equipment = { ship_hull_heavy_2 = { amount = 1 owner = USA version_name = "1936 Battleship" } } }
+			ship = { name = "1st New Orleans Dreadnought" definition = battleship start_experience_factor = 0.19308 equipment = { ship_hull_heavy_2 = { amount = 1 owner = USA version_name = "1936 Battleship" } } }
+			ship = { name = "4th Hawaii Cruiser" definition = light_cruiser start_experience_factor = 0.20515 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = USA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "2nd Biloxi Cruiser" definition = light_cruiser start_experience_factor = 0.13452 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = USA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Newark" definition = light_cruiser start_experience_factor = 0.08772 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = USA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Charleston" definition = light_cruiser start_experience_factor = 0.08947 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = USA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "San Francisco" definition = light_cruiser start_experience_factor = 0.08583 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = USA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Denver" definition = light_cruiser start_experience_factor = 0.08098 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = USA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Des Moines" definition = light_cruiser start_experience_factor = 0.08615 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = USA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Cincinnati" definition = light_cruiser start_experience_factor = 0.08745 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = USA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Chattanooga" definition = light_cruiser start_experience_factor = 0.08533 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = USA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "4th Portland Cruiser" definition = light_cruiser start_experience_factor = 0.20432 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = USA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "1st Dutch Harbor Cruiser" definition = light_cruiser start_experience_factor = 0.14591 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = USA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "2nd Dutch Harbor Cruiser" definition = light_cruiser start_experience_factor = 0.14266 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = USA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "2nd Seattle Cruiser" definition = light_cruiser start_experience_factor = 0.14232 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = USA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "2nd Portland Cruiser" definition = light_cruiser start_experience_factor = 0.13631 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = USA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "2nd Gilbert Islands Cruiser" definition = light_cruiser start_experience_factor = 0.12723 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = USA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "2nd Apia Cruiser" definition = light_cruiser start_experience_factor = 0.14137 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = USA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Minneapolis" definition = light_cruiser start_experience_factor = 0.14466 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = USA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "1st Yap Cruiser" definition = light_cruiser start_experience_factor = 0.14317 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = USA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "2nd Hawaii Cruiser" definition = light_cruiser start_experience_factor = 0.1353 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = USA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "1st Gilbert Islands Cruiser" definition = light_cruiser start_experience_factor = 0.12153 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = USA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "2nd Yap Cruiser" definition = light_cruiser start_experience_factor = 0.13275 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = USA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "1st Apia Cruiser" definition = light_cruiser start_experience_factor = 0.1258 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = USA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "3rd Seattle Cruiser" definition = light_cruiser start_experience_factor = 0.13826 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = USA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "3rd Portland Cruiser" definition = light_cruiser start_experience_factor = 0.14129 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = USA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "3rd Eureka Cruiser" definition = light_cruiser start_experience_factor = 0.13289 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = USA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "3rd Hawaii Cruiser" definition = light_cruiser start_experience_factor = 0.13457 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = USA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "2nd New Caledonia Cruiser" definition = light_cruiser start_experience_factor = 0.13614 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = USA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "1st Easter Island Cruiser" definition = light_cruiser start_experience_factor = 0.1489 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = USA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "3rd Nauru Cruiser" definition = light_cruiser start_experience_factor = 0.14044 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = USA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "3rd Apia Cruiser" definition = light_cruiser start_experience_factor = 0.14488 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = USA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "2nd Easter Island Cruiser" definition = light_cruiser start_experience_factor = 0.13558 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = USA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "5th Portland Cruiser" definition = light_cruiser start_experience_factor = 0.21507 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = USA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "4th Dutch Harbor Cruiser" definition = light_cruiser start_experience_factor = 0.20032 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = USA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "1st Tampa Cruiser" definition = light_cruiser start_experience_factor = 0.10915 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = USA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Cleveland" definition = light_cruiser start_experience_factor = 0.11106 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = USA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "5th Hawaii Cruiser" definition = light_cruiser start_experience_factor = 0.19109 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = USA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "5th Tampa Cruiser" definition = light_cruiser start_experience_factor = 0.19331 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = USA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "5th Wilmington Cruiser" definition = light_cruiser start_experience_factor = 0.19537 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = USA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "5th Baltimore Cruiser" definition = light_cruiser start_experience_factor = 0.19745 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = USA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "6th Atlantic City Cruiser" definition = light_cruiser start_experience_factor = 0.19917 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = USA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "6th Long Island Cruiser" definition = light_cruiser start_experience_factor = 0.21738 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = USA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "6th Boston Cruiser" definition = light_cruiser start_experience_factor = 0.18887 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = USA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "6th Lewiston Cruiser" definition = light_cruiser start_experience_factor = 0.20732 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = USA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "5th New Orleans Cruiser" definition = light_cruiser start_experience_factor = 0.19346 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = USA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Raleigh" definition = light_cruiser start_experience_factor = 0.277 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = USA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Olympia" definition = light_cruiser start_experience_factor = 0.277 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = USA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Columbia" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = USA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Milwaukee" definition = light_cruiser start_experience_factor = 0.277 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = USA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "6th Hawaii Cruiser" definition = light_cruiser start_experience_factor = 0.277 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = USA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "3rd New Caledonia Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = USA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Philadelphia" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = USA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "4th Yap Cruiser" definition = light_cruiser start_experience_factor = 0.27104 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = USA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "4th Nauru Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = USA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "4th Gilbert Islands Cruiser" definition = light_cruiser start_experience_factor = 0.27104 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = USA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "4th New Caledonia Cruiser" definition = light_cruiser start_experience_factor = 0.27104 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = USA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "4th Apia Cruiser" definition = light_cruiser start_experience_factor = 0.26808 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = USA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "8th Washington Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = USA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "8th Atlantic City Cruiser" definition = light_cruiser start_experience_factor = 0.277 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = USA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "7th Long Island Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = USA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "5th Mobile Cruiser" definition = light_cruiser start_experience_factor = 0.19661 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = USA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "5th Biloxi Cruiser" definition = light_cruiser start_experience_factor = 0.2129 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = USA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "6th Mobile Cruiser" definition = light_cruiser start_experience_factor = 0.19313 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = USA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "6th Tampa Cruiser" definition = light_cruiser start_experience_factor = 0.19678 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = USA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "6th Savannah Cruiser" definition = light_cruiser start_experience_factor = 0.20876 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = USA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "6th Norfolk Cruiser" definition = light_cruiser start_experience_factor = 0.21271 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = USA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "6th Wilmington Cruiser" definition = light_cruiser start_experience_factor = 0.19257 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = USA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "6th Baltimore Cruiser" definition = light_cruiser start_experience_factor = 0.1962 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = USA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "7th Washington Cruiser" definition = light_cruiser start_experience_factor = 0.19237 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = USA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "7th Atlantic City Cruiser" definition = light_cruiser start_experience_factor = 0.21249 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = USA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "7th Boston Cruiser" definition = light_cruiser start_experience_factor = 0.21697 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = USA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "7th Lewiston Cruiser" definition = light_cruiser start_experience_factor = 0.19296 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = USA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "5th Yap Cruiser" definition = light_cruiser start_experience_factor = 0.27021 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = USA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "5th Nauru Cruiser" definition = light_cruiser start_experience_factor = 0.277 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = USA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "5th Gilbert Islands Cruiser" definition = light_cruiser start_experience_factor = 0.277 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = USA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "5th Apia Cruiser" definition = light_cruiser start_experience_factor = 0.2988 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = USA version_name = "1936 Light Cruiser" } } }
+		}
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_light_2
+			creator = "USA"
+			version_name = "1936 Destroyer"
+		}
+		requested_factories = 3
+		progress = 0.25
+		amount = 10
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_heavy_2
+			creator = "USA"
+			version_name = "1936 Battleship"
+		}
+		requested_factories = 8
+		progress = 0.25
+		amount = 3
+	}
+}

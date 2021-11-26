@@ -1,0 +1,26 @@
+units = {
+	fleet = {
+		name = "1st Fleet"
+		naval_base = 7259
+		task_force = {
+			name = "1st Fleet"
+			location = 7259
+			ship = { name = "Columbia" definition = destroyer start_experience_factor = 0.24457 equipment = { ship_hull_light_1 = { amount = 1 owner = X01 version_name = "Early Destroyer" } } }
+			ship = { name = "Victoria" definition = destroyer start_experience_factor = 0.24975 equipment = { ship_hull_light_1 = { amount = 1 owner = X01 version_name = "Early Destroyer" } } }
+			ship = { name = "Fraser" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = X01 version_name = "Early Destroyer" } } }
+		}
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_light_1
+			creator = "X01"
+			version_name = "Early Destroyer"
+		}
+		requested_factories = 3
+		progress = 0.25
+		amount = 10
+	}
+}

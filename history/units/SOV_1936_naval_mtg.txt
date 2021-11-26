@@ -1,0 +1,97 @@
+units = {
+	fleet = {
+		name = "5th Fleet"
+		naval_base = 3151
+		task_force = {
+			name = "5th Fleet"
+			location = 3151
+			ship = { name = "Volya" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_1 = { amount = 1 owner = SOV version_name = "Early Battleship" } } }
+			ship = { name = "Novorossiysk" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_1 = { amount = 1 owner = SOV version_name = "Early Battleship" } } }
+			ship = { name = "Alekseev" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_1 = { amount = 1 owner = SOV version_name = "Early Battleship" } } }
+			ship = { name = "Bogatyr" definition = light_cruiser start_experience_factor = 0.20414 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = SOV version_name = "Early Light Cruiser" } } }
+			ship = { name = "Dnepr" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = SOV version_name = "Early Light Cruiser" } } }
+			ship = { name = "Pamiyat Azova" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = SOV version_name = "Early Light Cruiser" } } }
+			ship = { name = "Rurik" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = SOV version_name = "Early Light Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "1st Fleet"
+		naval_base = 9340
+		task_force = {
+			name = "1st Fleet"
+			location = 9340
+			ship = { name = "Arkhangel’sk" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_1 = { amount = 1 owner = SOV version_name = "Early Battleship" } } }
+			ship = { name = "Mariya" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_1 = { amount = 1 owner = SOV version_name = "Early Battleship" } } }
+			ship = { name = "Ekaterina" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_1 = { amount = 1 owner = SOV version_name = "Early Battleship" } } }
+			ship = { name = "Velikaya" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_1 = { amount = 1 owner = SOV version_name = "Early Battleship" } } }
+			ship = { name = "Svobodnaya Rossiya" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_1 = { amount = 1 owner = SOV version_name = "Early Battleship" } } }
+			ship = { name = "Aleksander" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_1 = { amount = 1 owner = SOV version_name = "Early Battleship" } } }
+			ship = { name = "Gangut" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_1 = { amount = 1 owner = SOV version_name = "Early Battleship" } } }
+			ship = { name = "Sevastopol" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_1 = { amount = 1 owner = SOV version_name = "Early Battleship" } } }
+			ship = { name = "Petropavlovsk" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_1 = { amount = 1 owner = SOV version_name = "Early Battleship" } } }
+			ship = { name = "Soyuz" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_1 = { amount = 1 owner = SOV version_name = "Early Battleship" } } }
+			ship = { name = "Ukraina" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_1 = { amount = 1 owner = SOV version_name = "Early Battleship" } } }
+			ship = { name = "Rossiya" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_1 = { amount = 1 owner = SOV version_name = "Early Battleship" } } }
+			ship = { name = "Belarussia" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_1 = { amount = 1 owner = SOV version_name = "Early Battleship" } } }
+			ship = { name = "Chesma" definition = heavy_cruiser start_experience_factor = 0.22917 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = SOV version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "Sissoi Veliky" definition = heavy_cruiser start_experience_factor = 0.25927 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = SOV version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "Poltava" definition = heavy_cruiser start_experience_factor = 0.27272 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = SOV version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "Sinop" definition = heavy_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = SOV version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "Ekaterina II" definition = heavy_cruiser start_experience_factor = 0.19454 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = SOV version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "Pallada" definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = SOV version_name = "Early Light Cruiser" } } }
+			ship = { name = "General-Admiral" definition = light_cruiser start_experience_factor = 0.24018 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = SOV version_name = "Early Light Cruiser" } } }
+			ship = { name = "Alexander Nevski" definition = light_cruiser start_experience_factor = 0.29673 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = SOV version_name = "Early Light Cruiser" } } }
+			ship = { name = "Oleg" definition = light_cruiser start_experience_factor = 0.27272 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = SOV version_name = "Early Light Cruiser" } } }
+			ship = { name = "Gromoboi" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = SOV version_name = "Early Light Cruiser" } } }
+			ship = { name = "Askold" definition = light_cruiser start_experience_factor = 0.22545 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = SOV version_name = "Early Light Cruiser" } } }
+			ship = { name = "Aurora" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = SOV version_name = "Early Light Cruiser" } } }
+			ship = { name = "Boyarin" definition = light_cruiser start_experience_factor = 0.24875 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = SOV version_name = "Early Light Cruiser" } } }
+			ship = { name = "Diana" definition = light_cruiser start_experience_factor = 0.22727 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = SOV version_name = "Early Light Cruiser" } } }
+			ship = { name = "Volga" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = SOV version_name = "Early Light Cruiser" } } }
+			ship = { name = "Kinburn" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = SOV version_name = "Early Light Cruiser" } } }
+			ship = { name = "Navarin" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = SOV version_name = "Early Light Cruiser" } } }
+			ship = { name = "Admiral Kornilov" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = SOV version_name = "Early Light Cruiser" } } }
+			ship = { name = "Almaz" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = SOV version_name = "Early Light Cruiser" } } }
+			ship = { name = "Asia" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = SOV version_name = "Early Light Cruiser" } } }
+			ship = { name = "Novaya Zemlya" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = SOV version_name = "Early Light Cruiser" } } }
+			ship = { name = "Varyag" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = SOV version_name = "Early Light Cruiser" } } }
+			ship = { name = "Izmail" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = SOV version_name = "Early Light Cruiser" } } }
+			ship = { name = "Bayan" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = SOV version_name = "Early Light Cruiser" } } }
+			ship = { name = "Novik" definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = SOV version_name = "Early Light Cruiser" } } }
+			ship = { name = "Vityaz" definition = light_cruiser start_experience_factor = 0.27272 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = SOV version_name = "Early Light Cruiser" } } }
+			ship = { name = "Nakhimov" definition = light_cruiser start_experience_factor = 0.22322 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = SOV version_name = "Early Light Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "2nd Fleet"
+		naval_base = 4073
+		task_force = {
+			name = "2nd Fleet"
+			location = 593
+			ship = { name = "Potemkin" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_1 = { amount = 1 owner = SOV version_name = "Early Battleship" } } }
+		}
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_light_2
+			creator = "SOV"
+			version_name = "1936 Destroyer"
+		}
+		requested_factories = 3
+		progress = 0.25
+		amount = 10
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_heavy_1
+			creator = "SOV"
+			version_name = "Early Battleship"
+		}
+		requested_factories = 8
+		progress = 0.25
+		amount = 3
+	}
+}

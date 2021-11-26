@@ -1,0 +1,103 @@
+units = {
+	fleet = {
+		name = "1st Fleet"
+		naval_base = 758
+		task_force = {
+			name = "1st Fleet"
+			location = 758
+			ship = { name = "Alfonso XIII" definition = battleship start_experience_factor = 0.25 equipment = { ship_hull_heavy_2 = { amount = 1 owner = SPR version_name = "1936 Battleship" } } }
+			ship = { name = "Álvaro de Bazán" definition = battleship start_experience_factor = 0.25 equipment = { ship_hull_heavy_2 = { amount = 1 owner = SPR version_name = "1936 Battleship" } } }
+			ship = { name = "Brigadier Topete" definition = battleship start_experience_factor = 0.25 equipment = { ship_hull_heavy_2 = { amount = 1 owner = SPR version_name = "1936 Battleship" } } }
+			ship = { name = "Castañeta" definition = battleship start_experience_factor = 0.25 equipment = { ship_hull_heavy_2 = { amount = 1 owner = SPR version_name = "1936 Battleship" } } }
+			ship = { name = "Ciudad de Cartagena" definition = battleship start_experience_factor = 0.25 equipment = { ship_hull_heavy_2 = { amount = 1 owner = SPR version_name = "1936 Battleship" } } }
+			ship = { name = "Ciudad de Sevilla" definition = battleship start_experience_factor = 0.25 equipment = { ship_hull_heavy_2 = { amount = 1 owner = SPR version_name = "1936 Battleship" } } }
+			ship = { name = "Ciudad de Valencia" definition = battleship start_experience_factor = 0.25 equipment = { ship_hull_heavy_2 = { amount = 1 owner = SPR version_name = "1936 Battleship" } } }
+			ship = { name = "Duque de Alba" definition = battleship start_experience_factor = 0.25 equipment = { ship_hull_heavy_2 = { amount = 1 owner = SPR version_name = "1936 Battleship" } } }
+			ship = { name = "Duque de Parma" definition = battleship start_experience_factor = 0.25 equipment = { ship_hull_heavy_2 = { amount = 1 owner = SPR version_name = "1936 Battleship" } } }
+			ship = { name = "Fadrique Álvarez de Toledo" definition = battleship start_experience_factor = 0.25 equipment = { ship_hull_heavy_2 = { amount = 1 owner = SPR version_name = "1936 Battleship" } } }
+			ship = { name = "Fernando de Magallanes" definition = battleship start_experience_factor = 0.25 equipment = { ship_hull_heavy_2 = { amount = 1 owner = SPR version_name = "1936 Battleship" } } }
+			ship = { name = "1st Cádiz Battleship" definition = heavy_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SPR version_name = "1936 Heavy Cruiser" } } }
+			ship = { name = "2nd Almería Battleship" definition = heavy_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SPR version_name = "1936 Heavy Cruiser" } } }
+			ship = { name = "4th La Coruña Battleship" definition = heavy_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SPR version_name = "1936 Heavy Cruiser" } } }
+			ship = { name = "2nd Cádiz Battleship" definition = heavy_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SPR version_name = "1936 Heavy Cruiser" } } }
+			ship = { name = "2nd La Coruña Battleship" definition = heavy_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SPR version_name = "1936 Heavy Cruiser" } } }
+			ship = { name = "3rd La Coruña Battleship" definition = heavy_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SPR version_name = "1936 Heavy Cruiser" } } }
+			ship = { name = "3rd Cartagena Battleship" definition = heavy_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SPR version_name = "1936 Heavy Cruiser" } } }
+			ship = { name = "Pelayo" definition = heavy_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SPR version_name = "1936 Heavy Cruiser" } } }
+			ship = { name = "2nd Cartagena Battleship" definition = heavy_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SPR version_name = "1936 Heavy Cruiser" } } }
+			ship = { name = "1st Almería Battleship" definition = heavy_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SPR version_name = "1936 Heavy Cruiser" } } }
+			ship = { name = "2nd Bilbao Battleship" definition = heavy_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SPR version_name = "1936 Heavy Cruiser" } } }
+			ship = { name = "3rd Almería Battleship" definition = heavy_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SPR version_name = "1936 Heavy Cruiser" } } }
+			ship = { name = "3rd Cádiz Battleship" definition = heavy_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SPR version_name = "1936 Heavy Cruiser" } } }
+			ship = { name = "1st La Coruña Battleship" definition = heavy_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SPR version_name = "1936 Heavy Cruiser" } } }
+			ship = { name = "1st Cartagena Battleship" definition = heavy_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SPR version_name = "1936 Heavy Cruiser" } } }
+			ship = { name = "Aragón" definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SPR version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Cardenal Cisneros" definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SPR version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Castilla" definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SPR version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Alfonso XII" definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SPR version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Cataluña" definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SPR version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Cristóbal Colón" definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SPR version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Don Antonio de Ulloa" definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SPR version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Don Juan de Austria" definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SPR version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Almirante Oquendo" definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SPR version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Ciudad de Oviedo" definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SPR version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Conde de Venadito" definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SPR version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Emperador Carlos V" definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SPR version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Extremadura" definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SPR version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Gravina" definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SPR version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Infanta Isabel" definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SPR version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Isla de Cuba" definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SPR version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Isla de Luzón" definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SPR version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Juan Sebastián Elcano" definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SPR version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Lepanto" definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SPR version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Marqués de la Ensenada" definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SPR version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Navarra" definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SPR version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Princesa de Asturias" definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SPR version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Reina Cristina" definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SPR version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Reina Mercedes" definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SPR version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Reina Regente" definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SPR version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Río de la Plata" definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SPR version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Velasco" definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SPR version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Vizcaya" definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SPR version_name = "1936 Light Cruiser" } } }
+			ship = { name = "1st La Coruña Cruiser" definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SPR version_name = "1936 Light Cruiser" } } }
+			ship = { name = "1st Bilbao Cruiser" definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SPR version_name = "1936 Light Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "2nd Fleet"
+		naval_base = 12038
+		task_force = {
+			name = "2nd Fleet"
+			location = 12038
+			ship = { name = "Duque de Medina-Sidonia" definition = battleship start_experience_factor = 0.25 equipment = { ship_hull_heavy_2 = { amount = 1 owner = SPR version_name = "1936 Battleship" } } }
+			ship = { name = "El Gran Capitán" definition = battleship start_experience_factor = 0.25 equipment = { ship_hull_heavy_2 = { amount = 1 owner = SPR version_name = "1936 Battleship" } } }
+			ship = { name = "España" definition = battleship start_experience_factor = 0.25 equipment = { ship_hull_heavy_2 = { amount = 1 owner = SPR version_name = "1936 Battleship" } } }
+			ship = { name = "Estrella de los Mares" definition = battleship start_experience_factor = 0.25 equipment = { ship_hull_heavy_2 = { amount = 1 owner = SPR version_name = "1936 Battleship" } } }
+			ship = { name = "Infante de España" definition = battleship start_experience_factor = 0.25 equipment = { ship_hull_heavy_2 = { amount = 1 owner = SPR version_name = "1936 Battleship" } } }
+			ship = { name = "1st Cádiz Cruiser" definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SPR version_name = "1936 Light Cruiser" } } }
+		}
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_light_2
+			creator = "SPR"
+			version_name = "1936 Destroyer"
+		}
+		requested_factories = 3
+		progress = 0.25
+		amount = 10
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_heavy_2
+			creator = "SPR"
+			version_name = "1936 Battleship"
+		}
+		requested_factories = 8
+		progress = 0.25
+		amount = 3
+	}
+}

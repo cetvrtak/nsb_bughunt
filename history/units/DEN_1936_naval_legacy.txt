@@ -1,0 +1,48 @@
+units = {
+	fleet = {
+		name = "1st Fleet"
+		naval_base = 6287
+		task_force = {
+			name = "1st Fleet"
+			location = 6287
+			ship = { name = "Århus" definition = battleship equipment = { battleship_2 = { amount = 1 owner = DEN } } }
+			ship = { name = "Ålborg" definition = battleship equipment = { battleship_2 = { amount = 1 owner = DEN } } }
+			ship = { name = "Ulrik Christian Gyldenløve" definition = battleship equipment = { battleship_2 = { amount = 1 owner = DEN } } }
+			ship = { name = "Fyn" definition = battleship equipment = { battleship_2 = { amount = 1 owner = DEN } } }
+			ship = { name = "Odense" definition = battleship equipment = { battleship_2 = { amount = 1 owner = DEN } } }
+			ship = { name = "Fredriksberg" definition = battleship equipment = { battleship_2 = { amount = 1 owner = DEN } } }
+			ship = { name = "Esbjerg" definition = battleship equipment = { battleship_2 = { amount = 1 owner = DEN } } }
+			ship = { name = "3rd Copenhagen Dreadnought" definition = battleship equipment = { battleship_2 = { amount = 1 owner = DEN } } }
+			ship = { name = "St. Thomas" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = DEN } } }
+			ship = { name = "Valkyrien" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = DEN } } }
+			ship = { name = "Søeormen" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = DEN } } }
+			ship = { name = "Susåen" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = DEN } } }
+			ship = { name = "Gudenåen" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = DEN } } }
+			ship = { name = "Herluf Trolle" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = DEN } } }
+			ship = { name = "1st Flensburg Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = DEN } } }
+			ship = { name = "2nd Flensburg Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = DEN } } }
+			ship = { name = "1st Copenhagen Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = DEN } } }
+		}
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = destroyer_2
+			creator = "DEN"
+		}
+		requested_factories = 3
+		progress = 0.25
+		amount = 10
+	}
+	add_equipment_production = {
+		equipment = {
+			type = battleship_2
+			creator = "DEN"
+		}
+		requested_factories = 8
+		progress = 0.25
+		amount = 3
+	}
+}

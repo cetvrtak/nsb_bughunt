@@ -1,0 +1,48 @@
+units = {
+	fleet = {
+		name = "2nd Fleet"
+		naval_base = 6389
+		task_force = {
+			name = "2nd Fleet"
+			location = 2775
+			ship = { name = "Derfflinger" definition = battleship equipment = { battleship_2 = { amount = 1 owner = GER } } }
+			ship = { name = "1st Oldenburg Commerce Raider" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = GER } } }
+		}
+	}
+	fleet = {
+		name = "1st Fleet"
+		naval_base = 6282
+		task_force = {
+			name = "1st Fleet"
+			location = 6282
+			ship = { name = "Seeadler" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = GER } } }
+			ship = { name = "Preußischer Adler" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = GER } } }
+			ship = { name = "Loreley" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = GER } } }
+			ship = { name = "Vineta" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = GER } } }
+			ship = { name = "Kap Trafalgar" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = GER } } }
+			ship = { name = "Kaiser Wilhelm der Große" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = GER } } }
+			ship = { name = "Kronprinz Wilhelm" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = GER } } }
+		}
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = destroyer_2
+			creator = "GER"
+		}
+		requested_factories = 3
+		progress = 0.25
+		amount = 10
+	}
+	add_equipment_production = {
+		equipment = {
+			type = battleship_2
+			creator = "GER"
+		}
+		requested_factories = 8
+		progress = 0.25
+		amount = 3
+	}
+}

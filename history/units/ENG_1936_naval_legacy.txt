@@ -1,0 +1,190 @@
+units = {
+	fleet = {
+		name = "4th Fleet"
+		naval_base = 6395
+		task_force = {
+			name = "4th Fleet"
+			location = 6395
+			ship = { name = "Canada" definition = battleship equipment = { battleship_2 = { amount = 1 owner = ENG } } }
+			ship = { name = "Iron Duke" definition = battleship equipment = { battleship_2 = { amount = 1 owner = ENG } } }
+			ship = { name = "Howe" definition = battleship equipment = { battleship_2 = { amount = 1 owner = ENG } } }
+			ship = { name = "4th Belfast Dreadnought" definition = battleship equipment = { battleship_2 = { amount = 1 owner = ENG } } }
+			ship = { name = "2nd Dublin Dreadnought" definition = battleship equipment = { battleship_2 = { amount = 1 owner = ENG } } }
+			ship = { name = "Ajax" definition = battleship equipment = { battleship_2 = { amount = 1 owner = ENG } } }
+			ship = { name = "King George V" definition = battleship equipment = { battleship_2 = { amount = 1 owner = ENG } } }
+			ship = { name = "1st Belfast Dreadnought" definition = battleship equipment = { battleship_2 = { amount = 1 owner = ENG } } }
+			ship = { name = "Orion" definition = battleship equipment = { battleship_2 = { amount = 1 owner = ENG } } }
+			ship = { name = "Collingwood" definition = battleship equipment = { battleship_2 = { amount = 1 owner = ENG } } }
+			ship = { name = "Bellerophon" definition = battleship equipment = { battleship_2 = { amount = 1 owner = ENG } } }
+			ship = { name = "Marlborough" definition = battleship equipment = { battleship_2 = { amount = 1 owner = ENG } } }
+			ship = { name = "Colossus" definition = battleship equipment = { battleship_2 = { amount = 1 owner = ENG } } }
+			ship = { name = "Temeraire" definition = battleship equipment = { battleship_2 = { amount = 1 owner = ENG } } }
+			ship = { name = "Barham" definition = battleship equipment = { battleship_2 = { amount = 1 owner = ENG } } }
+			ship = { name = "Benbow" definition = battleship equipment = { battleship_2 = { amount = 1 owner = ENG } } }
+			ship = { name = "3rd Belfast Dreadnought" definition = battleship equipment = { battleship_2 = { amount = 1 owner = ENG } } }
+			ship = { name = "Duke of York" definition = battleship equipment = { battleship_2 = { amount = 1 owner = ENG } } }
+			ship = { name = "Centurion" definition = battleship equipment = { battleship_2 = { amount = 1 owner = ENG } } }
+			ship = { name = "Superb" definition = battleship equipment = { battleship_2 = { amount = 1 owner = ENG } } }
+			ship = { name = "Vanguard" definition = battleship equipment = { battleship_2 = { amount = 1 owner = ENG } } }
+			ship = { name = "Queen Elizabeth" definition = battleship equipment = { battleship_2 = { amount = 1 owner = ENG } } }
+			ship = { name = "2nd Belfast Dreadnought" definition = battleship equipment = { battleship_2 = { amount = 1 owner = ENG } } }
+			ship = { name = "Erin" definition = battleship equipment = { battleship_2 = { amount = 1 owner = ENG } } }
+			ship = { name = "St Vincent" definition = battleship equipment = { battleship_2 = { amount = 1 owner = ENG } } }
+			ship = { name = "Neptune" definition = battleship equipment = { battleship_2 = { amount = 1 owner = ENG } } }
+			ship = { name = "Agincourt" definition = battleship equipment = { battleship_2 = { amount = 1 owner = ENG } } }
+			ship = { name = "Hercules" definition = battleship equipment = { battleship_2 = { amount = 1 owner = ENG } } }
+			ship = { name = "1st Liverpool Dreadnought" definition = battleship equipment = { battleship_2 = { amount = 1 owner = ENG } } }
+			ship = { name = "Prince of Wales" definition = battleship equipment = { battleship_2 = { amount = 1 owner = ENG } } }
+			ship = { name = "Conqueror" definition = battleship equipment = { battleship_2 = { amount = 1 owner = ENG } } }
+			ship = { name = "1st Dublin Dreadnought" definition = battleship equipment = { battleship_2 = { amount = 1 owner = ENG } } }
+			ship = { name = "Malaya" definition = battleship equipment = { battleship_2 = { amount = 1 owner = ENG } } }
+			ship = { name = "Monarch" definition = battleship equipment = { battleship_2 = { amount = 1 owner = ENG } } }
+			ship = { name = "Audacious" definition = battleship equipment = { battleship_2 = { amount = 1 owner = ENG } } }
+			ship = { name = "Anson" definition = battleship equipment = { battleship_2 = { amount = 1 owner = ENG } } }
+			ship = { name = "Lion" definition = battleship equipment = { battleship_2 = { amount = 1 owner = ENG } } }
+			ship = { name = "2nd Cork Dreadnought" definition = battleship equipment = { battleship_2 = { amount = 1 owner = ENG } } }
+			ship = { name = "Valiant" definition = battleship equipment = { battleship_2 = { amount = 1 owner = ENG } } }
+			ship = { name = "Dreadnought" definition = battleship equipment = { battleship_2 = { amount = 1 owner = ENG } } }
+			ship = { name = "Thunderer" definition = battleship equipment = { battleship_2 = { amount = 1 owner = ENG } } }
+			ship = { name = "Resistance" definition = battleship equipment = { battleship_2 = { amount = 1 owner = ENG } } }
+			ship = { name = "1st Cork Dreadnought" definition = battleship equipment = { battleship_2 = { amount = 1 owner = ENG } } }
+			ship = { name = "Rodney" definition = battleship equipment = { battleship_2 = { amount = 1 owner = ENG } } }
+			ship = { name = "Emperor of India" definition = battleship equipment = { battleship_2 = { amount = 1 owner = ENG } } }
+			ship = { name = "Duncan" definition = heavy_cruiser equipment = { heavy_cruiser_2 = { amount = 1 owner = ENG } } }
+			ship = { name = "Hannibal" definition = heavy_cruiser equipment = { heavy_cruiser_2 = { amount = 1 owner = ENG } } }
+			ship = { name = "Vengeance" definition = heavy_cruiser equipment = { heavy_cruiser_2 = { amount = 1 owner = ENG } } }
+			ship = { name = "Glory" definition = heavy_cruiser equipment = { heavy_cruiser_2 = { amount = 1 owner = ENG } } }
+			ship = { name = "Canopus" definition = heavy_cruiser equipment = { heavy_cruiser_2 = { amount = 1 owner = ENG } } }
+			ship = { name = "Venerable" definition = heavy_cruiser equipment = { heavy_cruiser_2 = { amount = 1 owner = ENG } } }
+			ship = { name = "Ramillies" definition = heavy_cruiser equipment = { heavy_cruiser_2 = { amount = 1 owner = ENG } } }
+			ship = { name = "Implacable" definition = heavy_cruiser equipment = { heavy_cruiser_2 = { amount = 1 owner = ENG } } }
+			ship = { name = "Caesar" definition = heavy_cruiser equipment = { heavy_cruiser_2 = { amount = 1 owner = ENG } } }
+			ship = { name = "Goliath" definition = heavy_cruiser equipment = { heavy_cruiser_2 = { amount = 1 owner = ENG } } }
+			ship = { name = "Albemarle" definition = heavy_cruiser equipment = { heavy_cruiser_2 = { amount = 1 owner = ENG } } }
+			ship = { name = "Goliath 2" definition = heavy_cruiser equipment = { heavy_cruiser_2 = { amount = 1 owner = ENG } } }
+			ship = { name = "Repulse" definition = heavy_cruiser equipment = { heavy_cruiser_2 = { amount = 1 owner = ENG } } }
+			ship = { name = "Glory 2" definition = heavy_cruiser equipment = { heavy_cruiser_2 = { amount = 1 owner = ENG } } }
+			ship = { name = "Cornwallis" definition = heavy_cruiser equipment = { heavy_cruiser_2 = { amount = 1 owner = ENG } } }
+			ship = { name = "Royal Sovereign" definition = heavy_cruiser equipment = { heavy_cruiser_2 = { amount = 1 owner = ENG } } }
+			ship = { name = "Royal Oak" definition = heavy_cruiser equipment = { heavy_cruiser_2 = { amount = 1 owner = ENG } } }
+			ship = { name = "Magnificent" definition = heavy_cruiser equipment = { heavy_cruiser_2 = { amount = 1 owner = ENG } } }
+			ship = { name = "Empress of India" definition = heavy_cruiser equipment = { heavy_cruiser_2 = { amount = 1 owner = ENG } } }
+			ship = { name = "Ocean" definition = heavy_cruiser equipment = { heavy_cruiser_2 = { amount = 1 owner = ENG } } }
+			ship = { name = "Mars" definition = heavy_cruiser equipment = { heavy_cruiser_2 = { amount = 1 owner = ENG } } }
+			ship = { name = "Illustrious" definition = heavy_cruiser equipment = { heavy_cruiser_2 = { amount = 1 owner = ENG } } }
+			ship = { name = "Galatea" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = ENG } } }
+			ship = { name = "Australia" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = ENG } } }
+			ship = { name = "Ariadne" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = ENG } } }
+			ship = { name = "1st Belfast Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = ENG } } }
+			ship = { name = "Amphitrite" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = ENG } } }
+			ship = { name = "Drake" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = ENG } } }
+			ship = { name = "Lancaster" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = ENG } } }
+			ship = { name = "Narcissus" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = ENG } } }
+			ship = { name = "Powerful" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = ENG } } }
+			ship = { name = "Edgar" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = ENG } } }
+			ship = { name = "Imperieuse" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = ENG } } }
+			ship = { name = "Euryalus" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = ENG } } }
+			ship = { name = "Spartiate" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = ENG } } }
+			ship = { name = "Endymion" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = ENG } } }
+			ship = { name = "Donegal" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = ENG } } }
+			ship = { name = "Hawke" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = ENG } } }
+			ship = { name = "Sutlej" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = ENG } } }
+			ship = { name = "Warrior" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = ENG } } }
+			ship = { name = "Natal" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = ENG } } }
+			ship = { name = "King Alfred" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = ENG } } }
+			ship = { name = "Roxburgh" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = ENG } } }
+			ship = { name = "Argyll" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = ENG } } }
+			ship = { name = "Carnarvon" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = ENG } } }
+			ship = { name = "Cochrane" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = ENG } } }
+			ship = { name = "Aboukir" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = ENG } } }
+			ship = { name = "Blake" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = ENG } } }
+			ship = { name = "Good Hope" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = ENG } } }
+			ship = { name = "Achilles" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = ENG } } }
+			ship = { name = "Minotaur" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = ENG } } }
+			ship = { name = "Cressy" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = ENG } } }
+			ship = { name = "Hampshire" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = ENG } } }
+			ship = { name = "Terrible" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = ENG } } }
+			ship = { name = "Bedford" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = ENG } } }
+			ship = { name = "Defence" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = ENG } } }
+			ship = { name = "Antrim" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = ENG } } }
+			ship = { name = "Niobe" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = ENG } } }
+			ship = { name = "Suffolk" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = ENG } } }
+			ship = { name = "Cresent" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = ENG } } }
+			ship = { name = "Nelson" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = ENG } } }
+			ship = { name = "Immortalite" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = ENG } } }
+			ship = { name = "Europa" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = ENG } } }
+			ship = { name = "Gibraltar" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = ENG } } }
+			ship = { name = "Devonshire" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = ENG } } }
+			ship = { name = "Bacchante" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = ENG } } }
+			ship = { name = "Blenheim" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = ENG } } }
+			ship = { name = "Andromeda" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = ENG } } }
+			ship = { name = "Warspite" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = ENG } } }
+			ship = { name = "Hogue" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = ENG } } }
+			ship = { name = "Leviathan" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = ENG } } }
+			ship = { name = "Monmouth" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = ENG } } }
+			ship = { name = "Black Prince" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = ENG } } }
+			ship = { name = "Undaunted" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = ENG } } }
+			ship = { name = "Royal Arthur" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = ENG } } }
+			ship = { name = "Kent" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = ENG } } }
+			ship = { name = "Shannon" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = ENG } } }
+			ship = { name = "Argonaut" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = ENG } } }
+			ship = { name = "Essex" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = ENG } } }
+			ship = { name = "Theseus" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = ENG } } }
+			ship = { name = "Diadem" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = ENG } } }
+			ship = { name = "Grafton" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = ENG } } }
+			ship = { name = "Berwick" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = ENG } } }
+			ship = { name = "Duke of Edinburgh" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = ENG } } }
+			ship = { name = "Northampton" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = ENG } } }
+			ship = { name = "2nd Cork Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = ENG } } }
+		}
+	}
+	fleet = {
+		name = "5th Fleet"
+		naval_base = 540
+		task_force = {
+			name = "5th Fleet"
+			location = 540
+			ship = { name = "Victorious" definition = heavy_cruiser equipment = { heavy_cruiser_2 = { amount = 1 owner = ENG } } }
+			ship = { name = "Prince George" definition = heavy_cruiser equipment = { heavy_cruiser_2 = { amount = 1 owner = ENG } } }
+			ship = { name = "London" definition = heavy_cruiser equipment = { heavy_cruiser_2 = { amount = 1 owner = ENG } } }
+			ship = { name = "1st Cork Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = ENG } } }
+			ship = { name = "St George" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = ENG } } }
+			ship = { name = "Cornwall" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = ENG } } }
+		}
+	}
+	fleet = {
+		name = "2nd Fleet"
+		naval_base = 221
+		task_force = {
+			name = "2nd Fleet"
+			location = 221
+			ship = { name = "Resolution" definition = heavy_cruiser equipment = { heavy_cruiser_2 = { amount = 1 owner = ENG } } }
+			ship = { name = "Revenge" definition = heavy_cruiser equipment = { heavy_cruiser_2 = { amount = 1 owner = ENG } } }
+			ship = { name = "Majestic" definition = heavy_cruiser equipment = { heavy_cruiser_2 = { amount = 1 owner = ENG } } }
+			ship = { name = "Cumberland" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = ENG } } }
+			ship = { name = "Aurora" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = ENG } } }
+			ship = { name = "Orlando" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = ENG } } }
+		}
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = destroyer_1
+			creator = "ENG"
+		}
+		requested_factories = 3
+		progress = 0.25
+		amount = 10
+	}
+	add_equipment_production = {
+		equipment = {
+			type = battleship_2
+			creator = "ENG"
+		}
+		requested_factories = 8
+		progress = 0.25
+		amount = 3
+	}
+}

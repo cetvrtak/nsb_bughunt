@@ -1,0 +1,51 @@
+units = {
+	fleet = {
+		name = "2nd Fleet"
+		naval_base = 12406
+		task_force = {
+			name = "2nd Fleet"
+			location = 12406
+			ship = { name = "Big Bruce" definition = battleship equipment = { battleship_2 = { amount = 1 owner = AST } } }
+			ship = { name = "Tasmania" definition = battleship equipment = { battleship_2 = { amount = 1 owner = AST } } }
+			ship = { name = "Queensland" definition = battleship equipment = { battleship_2 = { amount = 1 owner = AST } } }
+			ship = { name = "New South Wales" definition = battleship equipment = { battleship_2 = { amount = 1 owner = AST } } }
+			ship = { name = "Commonwealth" definition = battleship equipment = { battleship_2 = { amount = 1 owner = AST } } }
+			ship = { name = "1st Sydney Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_2 = { amount = 1 owner = AST } } }
+			ship = { name = "2nd Sydney Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_2 = { amount = 1 owner = AST } } }
+			ship = { name = "3rd Sydney Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_2 = { amount = 1 owner = AST } } }
+			ship = { name = "4th Sydney Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_2 = { amount = 1 owner = AST } } }
+			ship = { name = "Australia" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = AST } } }
+			ship = { name = "Melbourne" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = AST } } }
+			ship = { name = "Sydney" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = AST } } }
+			ship = { name = "Encounter" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = AST } } }
+			ship = { name = "Brisbane" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = AST } } }
+			ship = { name = "Pioneer" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = AST } } }
+			ship = { name = "Protector" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = AST } } }
+			ship = { name = "1st Esperance Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = AST } } }
+			ship = { name = "2nd Esperance Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = AST } } }
+			ship = { name = "3rd Esperance Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = AST } } }
+			ship = { name = "1st Tennant Creek Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = AST } } }
+		}
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = destroyer_2
+			creator = "AST"
+		}
+		requested_factories = 3
+		progress = 0.25
+		amount = 10
+	}
+	add_equipment_production = {
+		equipment = {
+			type = battleship_2
+			creator = "AST"
+		}
+		requested_factories = 8
+		progress = 0.25
+		amount = 3
+	}
+}

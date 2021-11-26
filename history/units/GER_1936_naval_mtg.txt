@@ -1,0 +1,50 @@
+units = {
+	fleet = {
+		name = "2nd Fleet"
+		naval_base = 6389
+		task_force = {
+			name = "2nd Fleet"
+			location = 2775
+			ship = { name = "Derfflinger" definition = battleship start_experience_factor = 0.25 equipment = { ship_hull_heavy_2 = { amount = 1 owner = GER version_name = "1936 Battleship" } } }
+			ship = { name = "1st Oldenburg Commerce Raider" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_2 = { amount = 1 owner = GER version_name = "1936 Destroyer" } } }
+		}
+	}
+	fleet = {
+		name = "1st Fleet"
+		naval_base = 6282
+		task_force = {
+			name = "1st Fleet"
+			location = 6282
+			ship = { name = "Seeadler" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_2 = { amount = 1 owner = GER version_name = "1936 Destroyer" } } }
+			ship = { name = "Preußischer Adler" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_2 = { amount = 1 owner = GER version_name = "1936 Destroyer" } } }
+			ship = { name = "Loreley" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_2 = { amount = 1 owner = GER version_name = "1936 Destroyer" } } }
+			ship = { name = "Vineta" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_2 = { amount = 1 owner = GER version_name = "1936 Destroyer" } } }
+			ship = { name = "Kap Trafalgar" definition = destroyer start_experience_factor = 0.2 equipment = { ship_hull_light_2 = { amount = 1 owner = GER version_name = "1936 Destroyer" } } }
+			ship = { name = "Kaiser Wilhelm der Große" definition = destroyer start_experience_factor = 0.2 equipment = { ship_hull_light_2 = { amount = 1 owner = GER version_name = "1936 Destroyer" } } }
+			ship = { name = "Kronprinz Wilhelm" definition = destroyer start_experience_factor = 0.2 equipment = { ship_hull_light_2 = { amount = 1 owner = GER version_name = "1936 Destroyer" } } }
+		}
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_light_2
+			creator = "GER"
+			version_name = "1936 Destroyer"
+		}
+		requested_factories = 3
+		progress = 0.25
+		amount = 10
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_heavy_2
+			creator = "GER"
+			version_name = "1936 Battleship"
+		}
+		requested_factories = 8
+		progress = 0.25
+		amount = 3
+	}
+}
