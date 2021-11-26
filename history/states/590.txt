@@ -1,0 +1,36 @@
+
+state={
+	id=590
+	name="STATE_590"
+	resources={
+		steel=0.000
+	}
+
+	history={
+		owner = X45
+		victory_points = {
+			9989 10 
+		}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 0
+			arms_factory = 0
+			11967 = {
+				naval_base = 4
+			}
+			air_base = 5
+
+		}
+		add_core_of = EGY
+		add_core_of = X45
+	}
+
+	provinces={
+		5078 7079 7148 9989 10061 11910 11967 12033 12091 
+	}
+	manpower=232420
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

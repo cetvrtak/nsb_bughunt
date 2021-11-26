@@ -1,0 +1,36 @@
+
+state={
+	id=97
+	name="STATE_97"
+	resources={
+		aluminium=4.000
+		steel=9.000
+	}
+
+	history={
+		owner = CHL
+		victory_points = {
+			650 15 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			arms_factory = 0
+			11000 = {
+				naval_base = 2
+			}
+			air_base = 6
+
+		}
+		add_core_of = CHL
+	}
+
+	provinces={
+		650 5191 5192 5228 8194 8222 11000 12914 
+	}
+	manpower=1024384
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

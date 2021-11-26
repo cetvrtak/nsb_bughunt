@@ -1,0 +1,36 @@
+
+state={
+	id=169
+	name="STATE_169"
+	resources={
+		aluminium=2.000
+		chromium=2.000
+		steel=1.000
+		tungsten=2.000
+	}
+
+	history={
+		owner = X24
+		victory_points = {
+			10801 0 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 1
+
+		}
+		add_core_of = X11
+		add_core_of = X24
+	}
+
+	provinces={
+		2105 4106 4410 4950 4953 5040 5096 7938 8076 10332 10801 10872 11995 12080 12743 12799 12854 
+	}
+	manpower=9381972
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+
+	local_supplies=10.0
+}

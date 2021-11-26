@@ -1,0 +1,35 @@
+
+state={
+	id=196
+	name="STATE_196"
+	resources={
+		rubber=0.000
+		steel=1.000
+		tungsten=1.000
+	}
+
+	history={
+		owner = X22
+		victory_points = {
+			12335 0 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+
+		}
+		add_core_of = BRM
+		add_core_of = X22
+	}
+
+	provinces={
+		1082 1197 1934 3999 4087 4318 4425 4454 4541 4588 4996 7163 7190 7534 8063 10033 10486 10920 11966 12335 12464 
+	}
+	manpower=1492908
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

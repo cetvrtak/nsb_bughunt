@@ -1,0 +1,36 @@
+
+state={
+	id=268
+	name="STATE_268"
+	resources={
+		chromium=156.000
+	}
+
+	history={
+		owner = GRE
+		victory_points = {
+			4112 0 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 0
+			arms_factory = 0
+			6864 = {
+				naval_base = 4
+			}
+			air_base = 0
+
+		}
+		add_core_of = TUR
+		add_claim_by = GRE
+	}
+
+	provinces={
+		785 928 1119 3927 4112 6864 6912 6992 7130 9799 9887 9921 9929 9941 10038 10041 10122 11778 11796 11848 11898 11917 12013 12096 
+	}
+	manpower=1694472
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

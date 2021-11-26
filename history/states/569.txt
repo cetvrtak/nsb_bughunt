@@ -1,0 +1,36 @@
+
+state={
+	id=569
+	name="STATE_569"
+	resources={
+		chromium=54.000
+	}
+
+	history={
+		owner = TUR
+		victory_points = {
+			947 1 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 0
+			947 = {
+				naval_base = 4
+			}
+			air_base = 0
+
+		}
+		add_core_of = TUR
+		add_claim_by = GRE
+	}
+
+	provinces={
+		856 909 947 981 3786 3851 3856 3907 3951 3983 6808 6877 6945 9878 11811 11831 11867 
+	}
+	manpower=1132992
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

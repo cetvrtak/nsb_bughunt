@@ -1,0 +1,32 @@
+
+state={
+	id=605
+	name="STATE_605"
+	resources={
+		aluminium=18.000
+	}
+
+	history={
+		owner = USA
+		victory_points = {
+			4540 5 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 7
+			arms_factory = 2
+			air_base = 3
+
+		}
+		add_core_of = USA
+	}
+
+	provinces={
+		1441 1523 1534 1564 1621 4449 4540 4569 7449 7607 10333 10370 10391 10516 10717 12346 12361 12463 
+	}
+	manpower=5010776
+	buildings_max_level_factor=1.000
+	state_category=metropolis
+
+	local_supplies=10.0
+}

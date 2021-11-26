@@ -1,0 +1,32 @@
+
+state={
+	id=4
+	name="STATE_4"
+	resources={
+		chromium=11.000
+	}
+
+	history={
+		owner = AFG
+		victory_points = {
+			12218 0 
+		}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+
+		}
+		add_core_of = BUK
+	}
+
+	provinces={
+		1216 1384 1919 4467 4542 7224 8027 10187 10417 12218 12250 12430 12805 
+	}
+	manpower=602232
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+
+	local_supplies=10.0
+}

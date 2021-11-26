@@ -1,0 +1,32 @@
+
+state={
+	id=409
+	name="STATE_409"
+	resources={
+		steel=5.000
+	}
+
+	history={
+		owner = ROM
+		victory_points = {
+			6679 2 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 2
+			arms_factory = 0
+			air_base = 1
+
+		}
+		add_core_of = ROM
+	}
+
+	provinces={
+		690 711 3676 3689 6679 6709 9668 9670 9685 11639 
+	}
+	manpower=1759812
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

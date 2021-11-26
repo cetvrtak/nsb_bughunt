@@ -1,0 +1,36 @@
+
+state={
+	id=195
+	name="STATE_195"
+	resources={
+		oil=16.000
+	}
+
+	history={
+		owner = ENG
+		victory_points = {
+			11350 3 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 2
+			arms_factory = 1
+			dockyard = 1
+			13009 = {
+				naval_base = 10
+			}
+			air_base = 1
+
+		}
+		add_core_of = ENG
+	}
+
+	provinces={
+		379 3284 7123 11106 11350 13009 13012 
+	}
+	manpower=4526884
+	buildings_max_level_factor=1.000
+	state_category=large_city
+
+	local_supplies=10.0
+}

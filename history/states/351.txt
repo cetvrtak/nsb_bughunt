@@ -1,0 +1,36 @@
+
+state={
+	id=351
+	name="STATE_351"
+	resources={
+		aluminium=16.000
+		chromium=2.000
+	}
+
+	history={
+		owner = NOR
+		victory_points = {
+			122 1 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			14 = {
+				naval_base = 2
+			}
+			air_base = 1
+
+		}
+		add_core_of = NOR
+	}
+
+	provinces={
+		14 53 65 100 122 137 199 3049 3059 3090 3094 3114 3129 3188 3192 6072 6080 6145 6151 6176 6184 6216 9036 9047 9096 9170 9174 9196 9204 9296 11029 11101 11176 11198 11367 
+	}
+	manpower=592892
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+
+	local_supplies=10.0
+}

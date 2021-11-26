@@ -1,0 +1,32 @@
+
+state={
+	id=578
+	name="STATE_578"
+	resources={
+		oil=14.000
+	}
+
+	history={
+		owner = TUR
+		victory_points = {
+			4951 0 
+		}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+
+		}
+		add_core_of = TUR
+	}
+
+	provinces={
+		1631 2097 3795 4951 7994 8001 10744 10876 12046 12372 12413 12839 12879 
+	}
+	manpower=929508
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+
+	local_supplies=10.0
+}

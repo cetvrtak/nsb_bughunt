@@ -1,0 +1,33 @@
+
+state={
+	id=331
+	name="STATE_331"
+	resources={
+		chromium=7.000
+		tungsten=44.000
+	}
+
+	history={
+		owner = X10
+		victory_points = {
+			8011 15 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			arms_factory = 1
+			air_base = 6
+
+		}
+		add_core_of = X10
+	}
+
+	provinces={
+		1412 4315 4344 8011 8100 10208 12146 12734 
+	}
+	manpower=1685416
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

@@ -1,0 +1,32 @@
+
+state={
+	id=188
+	name="STATE_188"
+
+	history={
+		owner = X23
+		victory_points = {
+			13018 10 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 0
+			arms_factory = 0
+			2165 = {
+				naval_base = 1
+			}
+			air_base = 6
+
+		}
+		add_core_of = X23
+	}
+
+	provinces={
+		2165 13018 
+	}
+	manpower=212816
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

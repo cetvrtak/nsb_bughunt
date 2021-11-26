@@ -1,0 +1,31 @@
+
+state={
+	id=227
+	name="STATE_227"
+
+	history={
+		owner = FRA
+		victory_points = {
+			13017 0 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 0
+			arms_factory = 0
+			13017 = {
+				naval_base = 10
+			}
+			air_base = 1
+
+		}
+	}
+
+	provinces={
+		13017 
+	}
+	manpower=282472
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

@@ -1,0 +1,31 @@
+
+state={
+	id=344
+	name="STATE_344"
+
+	history={
+		owner = HOL
+		victory_points = {
+			153 0 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			153 = {
+				naval_base = 10
+			}
+			air_base = 1
+
+		}
+	}
+
+	provinces={
+		153 
+	}
+	manpower=104740
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

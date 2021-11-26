@@ -1,0 +1,39 @@
+
+state={
+	id=175
+	name="STATE_175"
+	resources={
+		aluminium=0.000
+		chromium=1.000
+		rubber=3.000
+		tungsten=6.000
+	}
+
+	history={
+		owner = X24
+		victory_points = {
+			7447 0 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			7447 = {
+				naval_base = 10
+			}
+			air_base = 1
+
+		}
+		add_core_of = X24
+		add_claim_by = X10
+	}
+
+	provinces={
+		7391 7447 10274 12275 
+	}
+	manpower=3248704
+	buildings_max_level_factor=1.000
+	state_category=city
+
+	local_supplies=10.0
+}

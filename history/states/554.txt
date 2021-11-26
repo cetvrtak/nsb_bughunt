@@ -1,0 +1,52 @@
+
+state={
+	id=554
+	name="STATE_554"
+	resources={
+		chromium=6.000
+		steel=2.000
+	}
+
+	history={
+		owner = SPR
+		victory_points = {
+			8098 0 
+		}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 0
+			arms_factory = 0
+			1179 = {
+				naval_base = 10
+			}
+			air_base = 0
+
+		}
+		X13 = {
+			set_province_controller = 1179
+			set_province_controller = 4990
+			set_province_controller = 5043
+			set_province_controller = 5075
+			set_province_controller = 5105
+			set_province_controller = 7847
+			set_province_controller = 7917
+			set_province_controller = 7975
+			set_province_controller = 8013
+			set_province_controller = 8044
+			set_province_controller = 8066
+			set_province_controller = 8098
+			set_province_controller = 10813
+			set_province_controller = 12761
+			set_province_controller = 12774
+		}
+	}
+
+	provinces={
+		1179 4990 5043 5075 5105 7847 7917 7975 8013 8044 8066 8098 10813 12761 12774 
+	}
+	manpower=516428
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+
+	local_supplies=10.0
+}

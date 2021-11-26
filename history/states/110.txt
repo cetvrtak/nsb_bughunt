@@ -1,0 +1,37 @@
+
+state={
+	id=110
+	name="STATE_110"
+	resources={
+		chromium=1.000
+		steel=1.000
+		tungsten=3.000
+	}
+
+	history={
+		owner = VIN
+		victory_points = {
+			4341 1 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 0
+			arms_factory = 0
+			4223 = {
+				naval_base = 2
+			}
+			air_base = 0
+
+		}
+		add_core_of = VIN
+	}
+
+	provinces={
+		1248 1285 1300 1328 1396 1400 1423 1605 4223 4284 4334 4341 4363 4401 4405 7238 7271 7303 7331 7347 7380 10162 10180 10232 10261 12109 12133 12176 12204 12232 12288 
+	}
+	manpower=1171100
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

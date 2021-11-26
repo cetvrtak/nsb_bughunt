@@ -1,0 +1,36 @@
+
+state={
+	id=325
+	name="STATE_325"
+	resources={
+		steel=18.000
+		tungsten=8.000
+	}
+
+	history={
+		owner = MEX
+		victory_points = {
+			12873 2 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 2
+			arms_factory = 0
+			12873 = {
+				naval_base = 8
+			}
+			air_base = 1
+
+		}
+		add_core_of = MEX
+	}
+
+	provinces={
+		2051 5052 12746 12873 13089 
+	}
+	manpower=1780308
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

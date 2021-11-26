@@ -1,0 +1,32 @@
+
+state={
+	id=300
+	name="STATE_300"
+	resources={
+		tungsten=9.000
+	}
+
+	history={
+		owner = X07
+		victory_points = {
+			4984 15 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			arms_factory = 1
+			air_base = 6
+
+		}
+		add_core_of = X07
+	}
+
+	provinces={
+		4149 4984 10847 12886 
+	}
+	manpower=1001680
+	buildings_max_level_factor=1.000
+	state_category=town
+
+	local_supplies=10.0
+}

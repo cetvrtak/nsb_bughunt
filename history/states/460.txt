@@ -1,0 +1,36 @@
+
+state={
+	id=460
+	name="STATE_460"
+	resources={
+		steel=11.000
+	}
+
+	history={
+		owner = X35
+		victory_points = {
+			13077 10 
+		}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 0
+			arms_factory = 0
+			4116 = {
+				naval_base = 8
+			}
+			air_base = 5
+
+		}
+		add_core_of = ALG
+		add_core_of = X35
+	}
+
+	provinces={
+		3991 4116 4146 4150 7008 7040 7065 10045 10059 12018 12020 12760 13074 13077 
+	}
+	manpower=575672
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+
+	local_supplies=10.0
+}

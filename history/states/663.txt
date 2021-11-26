@@ -1,0 +1,32 @@
+
+state={
+	id=663
+	name="STATE_663"
+	resources={
+		rubber=0.000
+	}
+
+	history={
+		owner = X48
+		victory_points = {
+			8062 0 
+		}
+		buildings = {
+			infrastructure = 0
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+
+		}
+		add_core_of = X48
+	}
+
+	provinces={
+		8019 8062 
+	}
+	manpower=716000
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+
+	local_supplies=10.0
+}

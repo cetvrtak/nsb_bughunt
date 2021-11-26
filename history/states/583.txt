@@ -1,0 +1,23 @@
+
+state={
+	id=583
+	name="STATE_583"
+	resources={
+		steel=1.000
+	}
+	impassable = yes
+
+	history={
+		owner = TUR
+		add_core_of = TUR
+	}
+
+	provinces={
+		1060 11951 
+	}
+	manpower=33108
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+
+	local_supplies=10.0
+}

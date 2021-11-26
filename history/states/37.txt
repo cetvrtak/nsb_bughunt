@@ -1,0 +1,36 @@
+
+state={
+	id=37
+	name="STATE_37"
+	resources={
+		oil=13.000
+		rubber=51.000
+	}
+
+	history={
+		owner = BRU
+		victory_points = {
+			7371 15 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 0
+			4396 = {
+				naval_base = 2
+			}
+			air_base = 5
+
+		}
+		add_core_of = BRU
+	}
+
+	provinces={
+		1208 1335 2117 4216 4282 4396 7371 7387 7443 8091 10143 10212 10269 10285 12171 12283 12905 
+	}
+	manpower=172624
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

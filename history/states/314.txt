@@ -1,0 +1,30 @@
+
+state={
+	id=314
+	name="STATE_314"
+
+	history={
+		owner = AUS
+		victory_points = {
+			11580 2 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 2
+			arms_factory = 0
+			air_base = 1
+
+		}
+		add_core_of = AUS
+		add_claim_by = SER
+	}
+
+	provinces={
+		614 619 3614 3617 3623 6643 9621 11580 11787 
+	}
+	manpower=1564776
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

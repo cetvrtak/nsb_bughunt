@@ -1,0 +1,1002 @@
+﻿capital = 308
+set_research_slots = 3
+
+oob = "AUS_OOB"
+if = {
+	limit = { has_dlc = "Man the Guns" }
+		set_naval_oob = "AUS_1936_naval_mtg"
+	else = { 
+		set_naval_oob = "AUS_1936_naval_legacy"
+	}
+}
+
+# Starting tech
+set_technology = {
+	basic_train = 1
+	early_bomber = 1
+	early_fighter = 1
+	electronic_mechanical_engineering = 1
+	fuel_refining = 1
+	fuel_silos = 1
+	gw_artillery = 1
+	infantry_weapons = 1
+	marines = 1
+	tech_support = 1
+}
+
+if = {
+	limit = { NOT = { has_dlc = "No Step Back" } }
+	set_technology = {
+		gwtank = 1
+	}
+}
+
+if = {
+	limit = { has_dlc = "Man the Guns" }
+	set_technology = {
+		basic_battery = 1
+		basic_naval_mines = 1
+		basic_torpedo = 1
+		early_ship_hull_cruiser = 1
+		early_ship_hull_light = 1
+		improved_airplane_launcher = 1
+		mtg_transport = 1
+	}
+}
+
+if = {
+	limit = { has_dlc = "No Step Back" }
+	set_technology = {
+		gwtank_chassis = 1
+	}
+}
+
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+	set_technology = {
+		early_battleship = 1
+		early_destroyer = 1
+		early_heavy_cruiser = 1
+		early_light_cruiser = 1
+		early_submarine = 1
+		transport = 1
+	}
+}
+
+# Research Bonuses
+add_doctrine_cost_reduction = {
+	name = air_doc_bonus
+	cost_reduction = 0.99
+	uses = 1
+	category = air_doctrine
+}
+add_doctrine_cost_reduction = {
+	name = land_doc_bonus
+	cost_reduction = 0.99
+	uses = 1
+	category = land_doctrine
+}
+
+set_country_flag = conv_austria
+set_convoys = 0
+
+add_equipment_to_stockpile = { type = artillery_equipment_1 amount = 1 producer = AUS }
+add_equipment_to_stockpile = { type = infantry_equipment_0 amount = 5 producer = AUS }
+
+set_politics = {
+    ruling_party = fascism
+    last_election = "1933.8.11"
+    election_frequency = 48
+    elections_allowed = no
+}
+
+set_popularities = {
+	communism = 0
+	democratic = 53
+	fascism = 42
+	neutrality = 5
+}
+
+give_guarantee = ROM
+diplomatic_relation = { country = ROM relation = non_aggression_pact }
+
+add_opinion_modifier = { target = ARG modifier = positive_18 }
+add_opinion_modifier = { target = AST modifier = positive_5 }
+add_opinion_modifier = { target = BEL modifier = positive_125 }
+add_opinion_modifier = { target = BOL modifier = positive_16 }
+add_opinion_modifier = { target = BOS modifier = positive_5 }
+add_opinion_modifier = { target = BRA modifier = positive_18 }
+add_opinion_modifier = { target = BUK modifier = negative_100 }
+add_opinion_modifier = { target = CAN modifier = positive_5 }
+add_opinion_modifier = { target = CHI modifier = negative_130 }
+add_opinion_modifier = { target = CHL modifier = positive_18 }
+add_opinion_modifier = { target = COL modifier = positive_18 }
+add_opinion_modifier = { target = CUB modifier = positive_20 }
+add_opinion_modifier = { target = DEN modifier = negative_177 }
+add_opinion_modifier = { target = ECU modifier = positive_18 }
+add_opinion_modifier = { target = EGY modifier = positive_30 }
+add_opinion_modifier = { target = ELS modifier = positive_20 }
+add_opinion_modifier = { target = ENG modifier = negative_75 }
+add_opinion_modifier = { target = ETH modifier = positive_15 }
+add_opinion_modifier = { target = FRA modifier = positive_21 }
+give_military_access = FRA
+add_opinion_modifier = { target = GER modifier = positive_107 }
+add_opinion_modifier = { target = GRE modifier = positive_103 }
+add_opinion_modifier = { target = HAI modifier = positive_18 }
+add_opinion_modifier = { target = ITA modifier = negative_101 }
+add_opinion_modifier = { target = JAP modifier = positive_20 }
+add_opinion_modifier = { target = MNT modifier = positive_7 }
+add_opinion_modifier = { target = MOL modifier = positive_113 }
+add_opinion_modifier = { target = OMA modifier = negative_100 }
+add_opinion_modifier = { target = PAN modifier = positive_18 }
+add_opinion_modifier = { target = PAR modifier = positive_18 }
+add_opinion_modifier = { target = PHI modifier = positive_20 }
+add_opinion_modifier = { target = POL modifier = negative_199 }
+add_opinion_modifier = { target = POR modifier = positive_42 }
+add_opinion_modifier = { target = PRU modifier = positive_18 }
+add_opinion_modifier = { target = ROM modifier = positive_200 }
+give_military_access = ROM
+add_opinion_modifier = { target = SER modifier = negative_62 }
+add_opinion_modifier = { target = SIA modifier = negative_200 }
+add_opinion_modifier = { target = SOV modifier = positive_115 }
+add_opinion_modifier = { target = SWI modifier = negative_84 }
+add_opinion_modifier = { target = TUR modifier = positive_14 }
+add_opinion_modifier = { target = UKR modifier = positive_110 }
+add_opinion_modifier = { target = URG modifier = positive_16 }
+add_opinion_modifier = { target = USA modifier = positive_109 }
+add_opinion_modifier = { target = VEN modifier = positive_14 }
+add_opinion_modifier = { target = X12 modifier = positive_5 }
+add_opinion_modifier = { target = X16 modifier = positive_15 }
+add_opinion_modifier = { target = X17 modifier = positive_5 }
+add_opinion_modifier = { target = X18 modifier = positive_18 }
+add_opinion_modifier = { target = X19 modifier = positive_105 }
+
+
+add_ideas = {
+	AUS_monarch
+	YUG_idea_croatian_opposition
+	limited_conscription
+	partial_economic_mobilisation
+	limited_exports
+	culture_south_german
+}
+set_stability = 0.60
+set_war_support = 0.67
+create_country_leader = {
+	name = "Adolf von Benedek"
+	desc = "POLITICS_ADOLF_VON BENEDEK_DESC"
+	picture = "gfx/leaders/Europe/portrait_europe_generic_6.dds"
+	expire = "1965.1.1"
+	ideology = fascism_ideology
+	traits = {
+	}
+}
+create_corps_commander = {
+	name = "Wilhelm Köhler"
+	traits = { }
+	skill = 1
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Alfons von Brudermann"
+	traits = { }
+	skill = 4
+	attack_skill = 3
+	defense_skill = 1
+	planning_skill = 5
+	logistics_skill = 4
+}
+
+create_corps_commander = {
+	name = "Michael Remmele"
+	traits = { }
+	skill = 2
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 3
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Adolf von Zahringen"
+	traits = { }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 2
+}
+
+if = {
+	limit = {
+		has_dlc = "La Resistance"
+	}
+	create_operative_leader = {
+		name = "Hanna von Habsburg"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_1.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { AUS }
+	}
+
+	create_operative_leader = {
+		name = "Hanna von Baden"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_2.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { AUS }
+	}
+
+	create_operative_leader = {
+		name = "Hanna zu Hohenlohe"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_3.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { AUS }
+	}
+
+	create_operative_leader = {
+		name = "Sofia Hainisch"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_4.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { AUS }
+	}
+
+	create_operative_leader = {
+		name = "Sofia von Kirbach"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_5.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { AUS }
+	}
+
+	create_operative_leader = {
+		name = "Jessica Wittmann"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_6.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { AUS }
+	}
+
+	create_operative_leader = {
+		name = "Hanna von Kirbach"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_7.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { AUS }
+	}
+
+	create_operative_leader = {
+		name = "Marie von Hötzendorf"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_8.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { AUS }
+	}
+
+	create_operative_leader = {
+		name = "Hanna von Clam-Gallas"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_9.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { AUS }
+	}
+
+	create_operative_leader = {
+		name = "Marie Remmele"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_10.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { AUS }
+	}
+
+	create_operative_leader = {
+		name = "Hanna von Böhm-Ermolli"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_11.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { AUS }
+	}
+
+	create_operative_leader = {
+		name = "Jessica Wagner"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_13.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { AUS }
+	}
+
+	create_operative_leader = {
+		name = "Marie von Tegetthoff"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_14.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { AUS }
+	}
+
+	create_operative_leader = {
+		name = "Marie Haus"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_15.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { AUS }
+	}
+
+	create_operative_leader = {
+		name = "Jessica Dankl"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_16.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { AUS }
+	}
+
+	create_operative_leader = {
+		name = "Marie von Haynau"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_17.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { AUS }
+	}
+
+	create_operative_leader = {
+		name = "Jessica Hoffmann"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_18.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { AUS }
+	}
+
+	create_operative_leader = {
+		name = "Sandra Held"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_19.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { AUS }
+	}
+
+	create_operative_leader = {
+		name = "Marie Geiss"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_20.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { AUS }
+	}
+
+	create_operative_leader = {
+		name = "Marie von Kobratin"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_21.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { AUS }
+	}
+
+	create_operative_leader = {
+		name = "Marie zu Hohenlohe"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_22.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { AUS }
+	}
+
+	create_operative_leader = {
+		name = "Sofia Mergenthaler"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_23.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { AUS }
+	}
+
+	create_operative_leader = {
+		name = "Emma von Württemberg"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_24.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { AUS }
+	}
+
+	create_operative_leader = {
+		name = "Sofia von Habsburg"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_25.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { AUS }
+	}
+
+	create_operative_leader = {
+		name = "Sofia Trunk"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_26.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { AUS }
+	}
+
+	create_operative_leader = {
+		name = "Marie Haus"
+		GFX = "gfx/leaders/ENG/portrait_eng_diana_rowden.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { AUS }
+	}
+
+	create_operative_leader = {
+		name = "Sandra Hummel"
+		GFX = "gfx/leaders/ENG/portrait_eng_nancy_wake.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { AUS }
+	}
+
+	create_operative_leader = {
+		name = "Hanna von Kobratin"
+		GFX = "gfx/leaders/ENG/portrait_eng_krystyna_skarbek.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { AUS }
+	}
+
+	create_operative_leader = {
+		name = "Emma von Hohenhausen"
+		GFX = "gfx/leaders/FRA/portrait_fra_jennie_rousseau.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { AUS }
+	}
+
+	create_operative_leader = {
+		name = "Emma von Habsburg"
+		GFX = "gfx/leaders/FRA/portrait_fra_odette_samson.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { AUS }
+	}
+
+	create_operative_leader = {
+		name = "Emma von Habsburg"
+		GFX = "gfx/leaders/GER/Portrait_Germany_Hilter_F.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { AUS }
+	}
+
+	create_operative_leader = {
+		name = "Horst Wagner"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_1.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { AUS }
+	}
+
+	create_operative_leader = {
+		name = "Kurt von Clam-Gallas"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_2.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { AUS }
+	}
+
+	create_operative_leader = {
+		name = "Anton von Böhm-Ermolli"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_3.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { AUS }
+	}
+
+	create_operative_leader = {
+		name = "Eduard Wittmann"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_4.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { AUS }
+	}
+
+	create_operative_leader = {
+		name = "Leonhard von Württemberg"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_5.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { AUS }
+	}
+
+	create_operative_leader = {
+		name = "Adolf Wagner"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_6.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { AUS }
+	}
+
+	create_operative_leader = {
+		name = "Michael Mergenthaler"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_7.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { AUS }
+	}
+
+	create_operative_leader = {
+		name = "Karl Blos"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_8.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { AUS }
+	}
+
+	create_operative_leader = {
+		name = "Albrecht Haus"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_9.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { AUS }
+	}
+
+	create_operative_leader = {
+		name = "Ernst Blos"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_10.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { AUS }
+	}
+
+	create_operative_leader = {
+		name = "Jakob Schobber"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_11.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { AUS }
+	}
+
+	create_operative_leader = {
+		name = "Lorenz Eisner"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_12.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { AUS }
+	}
+
+	create_operative_leader = {
+		name = "Gustav Miklas"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_13.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { AUS }
+	}
+
+	create_operative_leader = {
+		name = "Julius Blos"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_14.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { AUS }
+	}
+
+	create_operative_leader = {
+		name = "Joseph von Clam-Gallas"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_15.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { AUS }
+	}
+
+	create_operative_leader = {
+		name = "Ferdinand von Kobratin"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_16.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { AUS }
+	}
+
+	create_operative_leader = {
+		name = "Arthur Hainisch"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_17.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { AUS }
+	}
+
+	create_operative_leader = {
+		name = "Reinhold von Clam-Gallas"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_18.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { AUS }
+	}
+
+	create_operative_leader = {
+		name = "Anton Stolzer"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_19.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { AUS }
+	}
+
+	create_operative_leader = {
+		name = "Viktor von Benedek"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_20.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { AUS }
+	}
+
+	create_operative_leader = {
+		name = "Wilhelm von Zahringen"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_21.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { AUS }
+	}
+
+	create_operative_leader = {
+		name = "Engelbert von Benedek"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_22.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { AUS }
+	}
+
+	create_operative_leader = {
+		name = "Stefan von Hohenhausen"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_23.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { AUS }
+	}
+
+	create_operative_leader = {
+		name = "Johann von Württemberg"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_24.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { AUS }
+	}
+
+	create_operative_leader = {
+		name = "Edmund Steeb"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_25.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { AUS }
+	}
+
+	create_operative_leader = {
+		name = "Johann Mergenthaler"
+		GFX = "gfx/leaders/ENG/portrait_eng_patrick_fermor.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { AUS }
+	}
+
+	create_operative_leader = {
+		name = "Arthur von Hess"
+		GFX = "gfx/leaders/ENG/portrait_eng_dusko_popov.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { AUS }
+	}
+
+	create_operative_leader = {
+		name = "Hermann Hummel"
+		GFX = "gfx/leaders/ENG/portrait_eng_juan_pujol.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { AUS }
+	}
+
+	create_operative_leader = {
+		name = "Kurt Hummel"
+		GFX = "gfx/leaders/ENG/portrait_eng_roman_czerniawski.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { AUS }
+	}
+
+	create_operative_leader = {
+		name = "Ernst Seitz"
+		GFX = "gfx/leaders/FRA/portrait_fra_rene_joyeuse.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { AUS }
+	}
+
+	create_operative_leader = {
+		name = "Wilhelm Köhler"
+		GFX = "gfx/leaders/FRA/portrait_fra_gilbert_renault.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { AUS }
+	}
+
+	create_operative_leader = {
+		name = "Christian Wagner"
+		GFX = "gfx/leaders/GER/portrait_ger_nikolaus_ritter.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { AUS }
+	}
+
+	create_operative_leader = {
+		name = "Karl von Kirbach"
+		GFX = "gfx/leaders/GER/portrait_ger_otto_skorzeny.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { AUS }
+	}
+
+	create_operative_leader = {
+		name = "Lorenz von Grünne"
+		GFX = "gfx/leaders/GER/Portrait_Germany_Hilter_M.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { AUS }
+	}
+
+	create_operative_leader = {
+		name = "Lorenz Goering"
+		GFX = "gfx/leaders/GER/portrait_ger_elyesa_bazna.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { AUS }
+	}
+
+	create_operative_leader = {
+		name = "Michael Trunk"
+		GFX = "gfx/leaders/GER/portrait_ger_nikolaus_ritter.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { AUS }
+	}
+
+	create_operative_leader = {
+		name = "Maximilian von Benedek"
+		GFX = "gfx/leaders/GER/portrait_ger_otto_skorzeny.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { AUS }
+	}
+
+	create_operative_leader = {
+		name = "Viktor von Haynau"
+		GFX = "gfx/leaders/SOV/portrait_sov_richard_sorge.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { AUS }
+	}
+
+	create_operative_leader = {
+		name = "Stefan von Hartmann"
+		GFX = "gfx/leaders/Western_European/Operatives/r56_portrait_generic_operative_europe_1.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { AUS }
+	}
+
+	create_operative_leader = {
+		name = "Eduard Hoffmann"
+		GFX = "gfx/leaders/Western_European/Operatives/r56_portrait_generic_operative_commonwealth_1.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { AUS }
+	}
+
+}
+### VARIANTS ###
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+	create_equipment_variant = {
+		name = "Early Battleship"
+		type = battleship_1
+		upgrades = {
+			ship_armor_upgrade = 1
+			ship_engine_upgrade = 1
+			ship_gun_upgrade = 1
+			ship_reliability_upgrade = 1
+		}
+	}
+
+	create_equipment_variant = {
+		name = "Early Destroyer"
+		type = destroyer_1
+		upgrades = {
+			destroyer_engine_upgrade = 1
+			ship_ASW_upgrade = 1
+			ship_anti_air_upgrade = 1
+			ship_torpedo_upgrade = 1
+		}
+	}
+
+	create_equipment_variant = {
+		name = "Early Heavy Cruiser"
+		type = heavy_cruiser_1
+		upgrades = {
+			ship_armor_upgrade = 1
+			ship_engine_upgrade = 1
+			ship_gun_upgrade = 1
+			ship_reliability_upgrade = 1
+		}
+	}
+
+	create_equipment_variant = {
+		name = "Early Light Cruiser"
+		type = light_cruiser_1
+		upgrades = {
+			ship_anti_air_upgrade = 1
+			ship_engine_upgrade = 1
+			ship_gun_upgrade = 1
+			ship_reliability_upgrade = 1
+		}
+	}
+
+	create_equipment_variant = {
+		name = "Early Submarine"
+		type = submarine_1
+		upgrades = {
+			ship_reliability_upgrade = 1
+			sub_engine_upgrade = 1
+			sub_stealth_upgrade = 1
+			sub_torpedo_upgrade = 1
+		}
+	}
+
+}
+if = {
+	limit = { has_dlc = "Man the Guns" }
+	create_equipment_variant = {
+		name = "Early Destroyer"
+		type = ship_hull_light_1
+		name_group = AUS_DD_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_battery_slot = ship_light_battery_1
+			fixed_ship_engine_slot = light_ship_engine_1
+			fixed_ship_fire_control_system_slot = empty
+			fixed_ship_radar_slot = ship_sonar_1
+			fixed_ship_torpedo_slot = ship_torpedo_1
+			mid_1_custom_slot = ship_depth_charge_1
+			rear_1_custom_slot = empty
+		}
+	}
+	create_equipment_variant = {
+		name = "Early Heavy Cruiser"
+		type = ship_hull_cruiser_1
+		name_group = AUS_CA_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_armor_slot = ship_armor_cruiser_1
+			fixed_ship_battery_slot = ship_medium_battery_1
+			fixed_ship_engine_slot = cruiser_ship_engine_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_secondaries_slot = ship_secondaries_1
+			mid_1_custom_slot = ship_secondaries_1
+			mid_2_custom_slot = ship_medium_battery_1
+			rear_1_custom_slot = empty
+		}
+	}
+	create_equipment_variant = {
+		name = "Early Light Cruiser"
+		type = ship_hull_cruiser_1
+		name_group = AUS_CL_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_armor_slot = ship_armor_cruiser_1
+			fixed_ship_battery_slot = ship_light_battery_1
+			fixed_ship_engine_slot = cruiser_ship_engine_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = ship_sonar_1
+			fixed_ship_secondaries_slot = ship_secondaries_1
+			mid_1_custom_slot = ship_torpedo_1
+			mid_2_custom_slot = ship_light_battery_1
+			rear_1_custom_slot = empty
+		}
+	}
+}

@@ -1,0 +1,35 @@
+
+state={
+	id=225
+	name="STATE_225"
+	resources={
+		steel=25.000
+	}
+
+	history={
+		owner = FRA
+		victory_points = {
+			1145 0 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 0
+			arms_factory = 0
+			1145 = {
+				naval_base = 10
+			}
+			air_base = 1
+
+		}
+		add_core_of = ALG
+	}
+
+	provinces={
+		1013 1145 1160 4046 4131 7081 7132 7166 9964 10078 11923 11939 12051 
+	}
+	manpower=2397624
+	buildings_max_level_factor=1.000
+	state_category=town
+
+	local_supplies=10.0
+}

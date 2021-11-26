@@ -1,0 +1,32 @@
+
+state={
+	id=388
+	name="STATE_388"
+
+	history={
+		owner = POR
+		victory_points = {
+			12190 0 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			12190 = {
+				naval_base = 6
+			}
+			air_base = 1
+
+		}
+		add_core_of = POR
+	}
+
+	provinces={
+		1326 12178 12190 13001 
+	}
+	manpower=143020
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

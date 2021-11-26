@@ -1,0 +1,29 @@
+
+state={
+	id=634
+	name="STATE_634"
+
+	history={
+		owner = USA
+		victory_points = {
+			9727 6 
+		}
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 7
+			arms_factory = 3
+			air_base = 3
+
+		}
+		add_core_of = USA
+	}
+
+	provinces={
+		1445 1582 4402 4452 4988 6696 6974 7547 9727 10586 10727 12568 12637 12709 
+	}
+	manpower=5084116
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+
+	local_supplies=10.0
+}

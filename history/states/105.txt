@@ -1,0 +1,37 @@
+
+state={
+	id=105
+	name="STATE_105"
+	resources={
+		oil=21.000
+		tungsten=50.000
+	}
+
+	history={
+		owner = X01
+		victory_points = {
+			7259 10 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			arms_factory = 0
+			7259 = {
+				naval_base = 4
+			}
+			air_base = 6
+
+		}
+		add_core_of = X01
+		add_claim_by = CAN
+	}
+
+	provinces={
+		917 1214 1323 1393 1408 1411 1420 1737 1799 1858 1869 1872 4343 4385 4413 4428 4678 4870 4877 7259 7677 7753 7761 7820 7853 10228 10258 10273 10548 10644 12231 12259 12272 12508 12571 12578 
+	}
+	manpower=1147814
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

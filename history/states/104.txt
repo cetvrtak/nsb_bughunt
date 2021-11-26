@@ -1,0 +1,29 @@
+
+state={
+	id=104
+	name="STATE_104"
+
+	history={
+		owner = COL
+		victory_points = {
+			10792 1 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 1
+
+		}
+		add_core_of = COL
+	}
+
+	provinces={
+		1887 2007 5026 10792 12729 12770 12825 
+	}
+	manpower=1210284
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

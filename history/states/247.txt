@@ -1,0 +1,33 @@
+
+state={
+	id=247
+	name="STATE_247"
+
+	history={
+		owner = GER
+		victory_points = {
+			6332 6 
+		}
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 6
+			arms_factory = 2
+			dockyard = 2
+			6332 = {
+				naval_base = 10
+			}
+			air_base = 3
+
+		}
+		add_core_of = GER
+	}
+
+	provinces={
+		281 348 395 3288 3384 6332 11265 
+	}
+	manpower=4639364
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+
+	local_supplies=10.0
+}

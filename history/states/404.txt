@@ -1,0 +1,36 @@
+
+state={
+	id=404
+	name="STATE_404"
+	resources={
+		steel=0.000
+	}
+
+	history={
+		owner = X29
+		victory_points = {
+			10976 0 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 0
+			arms_factory = 0
+			10976 = {
+				naval_base = 6
+			}
+			air_base = 0
+
+		}
+		add_core_of = X29
+		add_claim_by = OMA
+	}
+
+	provinces={
+		10976 
+	}
+	manpower=145496
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

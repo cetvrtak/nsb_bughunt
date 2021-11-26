@@ -1,0 +1,36 @@
+
+state={
+	id=459
+	name="STATE_459"
+	resources={
+		oil=4.000
+	}
+
+	history={
+		owner = SOV
+		victory_points = {
+			855 1 
+		}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 0
+			arms_factory = 0
+			855 = {
+				naval_base = 8
+			}
+			air_base = 0
+
+		}
+		add_core_of = SOV
+		add_claim_by = JAP
+	}
+
+	provinces={
+		855 1322 1742 1755 1820 12446 
+	}
+	manpower=154760
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

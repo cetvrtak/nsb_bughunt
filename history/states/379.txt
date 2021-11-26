@@ -1,0 +1,36 @@
+
+state={
+	id=379
+	name="STATE_379"
+	resources={
+		oil=1.000
+	}
+
+	history={
+		owner = PAN
+		victory_points = {
+			7630 15 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 0
+			10482 = {
+				naval_base = 2
+			}
+			air_base = 6
+
+		}
+		add_core_of = PAN
+		add_claim_by = COL
+	}
+
+	provinces={
+		1633 4611 4624 7630 10482 
+	}
+	manpower=121832
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

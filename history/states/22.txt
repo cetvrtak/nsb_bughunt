@@ -1,0 +1,38 @@
+
+state={
+	id=22
+	name="STATE_22"
+	resources={
+		chromium=1.000
+		oil=1.000
+		steel=1.000
+	}
+
+	history={
+		owner = AST
+		victory_points = {
+			12910 1 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 0
+			arms_factory = 0
+			dockyard = 1
+			5183 = {
+				naval_base = 10
+			}
+			air_base = 1
+
+		}
+		add_core_of = AST
+	}
+
+	provinces={
+		1773 2219 5183 5197 5211 5225 7567 8165 8186 8220 10925 10927 12910 12918 12924 
+	}
+	manpower=719006
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

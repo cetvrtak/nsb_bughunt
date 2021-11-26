@@ -1,0 +1,33 @@
+
+state={
+	id=541
+	name="STATE_541"
+	resources={
+		rubber=5.000
+		tungsten=5.000
+	}
+
+	history={
+		owner = X39
+		victory_points = {
+			7716 0 
+		}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+
+		}
+		add_core_of = X39
+	}
+
+	provinces={
+		1731 2024 4128 7716 8016 9986 12775 
+	}
+	manpower=564204
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+
+	local_supplies=10.0
+}

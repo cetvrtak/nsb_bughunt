@@ -1,0 +1,38 @@
+
+state={
+	id=267
+	name="STATE_267"
+	resources={
+		aluminium=19.000
+		chromium=14.000
+		steel=13.000
+		tungsten=7.000
+	}
+
+	history={
+		owner = GRE
+		victory_points = {
+			3973 1 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 0
+			arms_factory = 0
+			9805 = {
+				naval_base = 4
+			}
+			air_base = 0
+
+		}
+		add_core_of = GRE
+	}
+
+	provinces={
+		863 3914 3973 6930 9805 9916 11786 
+	}
+	manpower=1057400
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

@@ -1,0 +1,35 @@
+
+state={
+	id=260
+	name="STATE_260"
+	resources={
+		aluminium=1.000
+		steel=2.000
+		tungsten=2.000
+	}
+
+	history={
+		owner = GER
+		victory_points = {
+			673 2 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			arms_factory = 1
+			air_base = 1
+
+		}
+		add_core_of = AUS
+		add_core_of = GER
+	}
+
+	provinces={
+		671 673 688 3675 6678 6680 9633 9636 11618 11634 
+	}
+	manpower=1924172
+	buildings_max_level_factor=1.000
+	state_category=town
+
+	local_supplies=10.0
+}

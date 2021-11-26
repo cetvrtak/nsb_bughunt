@@ -1,0 +1,37 @@
+
+state={
+	id=570
+	name="STATE_570"
+	resources={
+		aluminium=11.000
+		chromium=19.000
+		steel=5.000
+	}
+
+	history={
+		owner = TUR
+		victory_points = {
+			940 1 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 0
+			11810 = {
+				naval_base = 4
+			}
+			air_base = 0
+
+		}
+		add_core_of = TUR
+	}
+
+	provinces={
+		784 869 940 1005 1122 3788 3876 4008 4124 4127 6807 6894 7026 7143 9755 9763 9811 10056 11792 11810 11860 11907 12016 
+	}
+	manpower=1103223
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

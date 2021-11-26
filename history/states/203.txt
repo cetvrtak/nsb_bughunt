@@ -1,0 +1,25 @@
+
+state={
+	id=203
+	name="STATE_203"
+	resources={
+		aluminium=1.000
+		rubber=0.000
+		steel=4.000
+	}
+	impassable = yes
+
+	history={
+		owner = ENG
+		add_core_of = ENG
+	}
+
+	provinces={
+		1897 1962 7943 8035 10771 10779 10838 
+	}
+	manpower=679788
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+
+	local_supplies=10.0
+}

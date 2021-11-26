@@ -1,0 +1,32 @@
+
+state={
+	id=635
+	name="STATE_635"
+	resources={
+		steel=112.000
+	}
+
+	history={
+		owner = USA
+		victory_points = {
+			12501 6 
+		}
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 8
+			arms_factory = 3
+			air_base = 3
+
+		}
+		add_core_of = USA
+	}
+
+	provinces={
+		913 1758 1987 7615 7791 7797 8014 8083 10281 10615 10657 10824 10909 12501 12670 
+	}
+	manpower=6369548
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+
+	local_supplies=10.0
+}

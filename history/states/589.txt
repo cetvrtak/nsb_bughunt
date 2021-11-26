@@ -1,0 +1,33 @@
+
+state={
+	id=589
+	name="STATE_589"
+
+	history={
+		owner = TUR
+		victory_points = {
+			7176 0 
+		}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 0
+			arms_factory = 0
+			1201 = {
+				naval_base = 4
+			}
+			air_base = 0
+
+		}
+		add_core_of = EGY
+		add_claim_by = TUR
+	}
+
+	provinces={
+		1015 1086 1201 4088 4206 7107 7176 11970 
+	}
+	manpower=622400
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+
+	local_supplies=10.0
+}

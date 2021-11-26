@@ -1,0 +1,34 @@
+
+state={
+	id=28
+	name="STATE_28"
+	resources={
+		aluminium=8.000
+		steel=2.000
+	}
+
+	history={
+		owner = AZR
+		victory_points = {
+			1896 10 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 0
+			air_base = 5
+
+		}
+		add_core_of = AZR
+		add_core_of = PER
+	}
+
+	provinces={
+		1636 1822 1896 2071 4755 4825 4901 7604 10454 12793 12861 
+	}
+	manpower=1819052
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

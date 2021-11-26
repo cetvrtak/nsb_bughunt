@@ -1,0 +1,36 @@
+
+state={
+	id=373
+	name="STATE_373"
+	resources={
+		steel=5.000
+		tungsten=0.000
+	}
+
+	history={
+		owner = PRU
+		victory_points = {
+			2225 1 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 0
+			arms_factory = 0
+			2225 = {
+				naval_base = 2
+			}
+			air_base = 0
+
+		}
+		add_core_of = PRU
+	}
+
+	provinces={
+		2225 5166 8160 8191 10940 12953 
+	}
+	manpower=480020
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+
+	local_supplies=10.0
+}

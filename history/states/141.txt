@@ -1,0 +1,32 @@
+
+state={
+	id=141
+	name="STATE_141"
+	resources={
+		rubber=1.000
+	}
+
+	history={
+		owner = EGY
+		victory_points = {
+			10734 0 
+		}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+
+		}
+		add_core_of = ETH
+	}
+
+	provinces={
+		2009 7912 10734 12856 
+	}
+	manpower=812524
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+
+	local_supplies=10.0
+}

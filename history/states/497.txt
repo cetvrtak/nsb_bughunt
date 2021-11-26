@@ -1,0 +1,35 @@
+
+state={
+	id=497
+	name="STATE_497"
+	resources={
+		steel=2.000
+	}
+
+	history={
+		owner = X35
+		victory_points = {
+			7173 0 
+		}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 0
+			arms_factory = 0
+			989 = {
+				naval_base = 8
+			}
+			air_base = 0
+
+		}
+		add_core_of = X35
+	}
+
+	provinces={
+		989 1111 1152 1989 4022 4097 4154 4933 7116 7173 7908 7958 8046 
+	}
+	manpower=511692
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+
+	local_supplies=10.0
+}

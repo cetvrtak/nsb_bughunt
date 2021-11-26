@@ -1,0 +1,507 @@
+﻿capital = 568
+set_research_slots = 3
+
+oob = "TUR_OOB"
+if = {
+	limit = { has_dlc = "Man the Guns" }
+		set_naval_oob = "TUR_1936_naval_mtg"
+	else = { 
+		set_naval_oob = "TUR_1936_naval_legacy"
+	}
+}
+
+# Starting tech
+set_technology = {
+	early_bomber = 1
+	early_fighter = 1
+	electronic_mechanical_engineering = 1
+	fuel_refining = 1
+	fuel_silos = 1
+	gw_artillery = 1
+	infantry_weapons = 1
+	tech_support = 1
+}
+
+if = {
+	limit = { NOT = { has_dlc = "No Step Back" } }
+	set_technology = {
+		gwtank = 1
+	}
+}
+
+if = {
+	limit = { has_dlc = "Man the Guns" }
+	set_technology = {
+		basic_battery = 1
+		basic_naval_mines = 1
+		basic_torpedo = 1
+		early_ship_hull_cruiser = 1
+		early_ship_hull_light = 1
+	}
+}
+
+if = {
+	limit = { has_dlc = "No Step Back" }
+	set_technology = {
+		gwtank_chassis = 1
+	}
+}
+
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+	set_technology = {
+		early_battleship = 1
+		early_destroyer = 1
+		early_heavy_cruiser = 1
+		early_light_cruiser = 1
+		early_submarine = 1
+		transport = 1
+	}
+}
+
+# Research Bonuses
+
+set_country_flag = conv_greece
+set_convoys = 2
+
+add_equipment_to_stockpile = { type = artillery_equipment_1 amount = 1 producer = TUR }
+add_equipment_to_stockpile = { type = infantry_equipment_0 amount = 1 producer = TUR }
+
+set_politics = {
+    ruling_party = democratic
+    last_election = "1931.9.1"
+    election_frequency = 48
+    elections_allowed = yes
+}
+
+set_popularities = {
+	communism = 5
+	democratic = 65
+	fascism = 15
+	neutrality = 15
+}
+
+# DIPLOMACY
+if = {
+    limit = {
+        has_dlc = "Together for Victory"
+    }
+    set_autonomy = {
+        target = MOL
+        autonomous_state = autonomy_dominion
+        freedom_level = 0.4
+    }
+    set_autonomy = {
+        target = X19
+        autonomous_state = autonomy_dominion
+        freedom_level = 0.4
+    }
+    set_autonomy = {
+        target = X45
+        autonomous_state = autonomy_integrated_puppet
+        freedom_level = 0.4
+    }
+    set_autonomy = {
+        target = X46
+        autonomous_state = autonomy_integrated_puppet
+        freedom_level = 0.4
+    }
+    else = {
+        puppet = MOL
+        puppet = X19
+        puppet = X45
+        puppet = X46
+    }
+}
+
+if = {
+    limit = {has_dlc = "Together for Victory" }
+
+    add_to_tech_sharing_group = TUR_research
+}
+
+give_guarantee = FRA
+diplomatic_relation = { country = FRA relation = non_aggression_pact }
+
+give_guarantee = MOL
+diplomatic_relation = { country = MOL relation = non_aggression_pact }
+
+give_guarantee = POL
+diplomatic_relation = { country = POL relation = non_aggression_pact }
+
+give_guarantee = X19
+diplomatic_relation = { country = X19 relation = non_aggression_pact }
+
+add_opinion_modifier = { target = AFG modifier = positive_32 }
+give_military_access = AFG
+add_opinion_modifier = { target = ALB modifier = positive_106 }
+add_opinion_modifier = { target = ALG modifier = positive_112 }
+give_military_access = ALG
+add_opinion_modifier = { target = ARG modifier = negative_10 }
+add_opinion_modifier = { target = AST modifier = negative_10 }
+add_opinion_modifier = { target = AUS modifier = positive_14 }
+give_military_access = AUS
+add_opinion_modifier = { target = AZR modifier = positive_65 }
+add_opinion_modifier = { target = BEL modifier = negative_10 }
+add_opinion_modifier = { target = BOL modifier = negative_10 }
+add_opinion_modifier = { target = BOS modifier = positive_86 }
+add_opinion_modifier = { target = BRA modifier = negative_10 }
+add_opinion_modifier = { target = BRU modifier = positive_30 }
+add_opinion_modifier = { target = BUK modifier = positive_165 }
+give_military_access = BUK
+add_opinion_modifier = { target = CAN modifier = negative_10 }
+add_opinion_modifier = { target = CHI modifier = negative_196 }
+set_truce = { target = CHI days = 1129 }
+add_opinion_modifier = { target = CHL modifier = negative_10 }
+add_opinion_modifier = { target = COL modifier = negative_10 }
+add_opinion_modifier = { target = CUB modifier = negative_10 }
+add_opinion_modifier = { target = DEN modifier = positive_180 }
+give_military_access = DEN
+add_opinion_modifier = { target = ECU modifier = negative_10 }
+add_opinion_modifier = { target = EGY modifier = negative_199 }
+set_truce = { target = EGY days = 1519 }
+add_opinion_modifier = { target = ELS modifier = negative_10 }
+add_opinion_modifier = { target = ENG modifier = positive_176 }
+add_opinion_modifier = { target = ETH modifier = positive_104 }
+give_military_access = ETH
+add_opinion_modifier = { target = FRA modifier = positive_200 }
+give_military_access = FRA
+add_opinion_modifier = { target = GER modifier = positive_99 }
+set_truce = { target = GER days = 1129 }
+add_opinion_modifier = { target = GRE modifier = negative_199 }
+set_truce = { target = GRE days = 1007 }
+add_opinion_modifier = { target = HAI modifier = negative_10 }
+add_opinion_modifier = { target = HOL modifier = positive_200 }
+add_opinion_modifier = { target = HON modifier = negative_10 }
+add_opinion_modifier = { target = INS modifier = positive_30 }
+add_opinion_modifier = { target = ITA modifier = negative_59 }
+add_opinion_modifier = { target = KHI modifier = positive_103 }
+add_opinion_modifier = { target = MNT modifier = negative_19 }
+add_opinion_modifier = { target = MOL modifier = positive_200 }
+add_opinion_modifier = { target = NOR modifier = negative_10 }
+add_opinion_modifier = { target = OMA modifier = positive_83 }
+add_opinion_modifier = { target = PAN modifier = negative_10 }
+add_opinion_modifier = { target = PAR modifier = negative_10 }
+add_opinion_modifier = { target = PHI modifier = negative_10 }
+add_opinion_modifier = { target = POL modifier = positive_200 }
+give_military_access = POL
+add_opinion_modifier = { target = POR modifier = negative_15 }
+add_opinion_modifier = { target = PRU modifier = negative_10 }
+add_opinion_modifier = { target = ROM modifier = positive_17 }
+add_opinion_modifier = { target = SER modifier = negative_37 }
+add_opinion_modifier = { target = SOV modifier = negative_69 }
+set_truce = { target = SOV days = 1129 }
+add_opinion_modifier = { target = SPR modifier = positive_180 }
+give_military_access = SPR
+add_opinion_modifier = { target = SWE modifier = positive_98 }
+add_opinion_modifier = { target = SWI modifier = positive_110 }
+add_opinion_modifier = { target = TUN modifier = positive_175 }
+add_opinion_modifier = { target = UAE modifier = positive_103 }
+add_opinion_modifier = { target = UKR modifier = positive_45 }
+add_opinion_modifier = { target = URG modifier = negative_10 }
+add_opinion_modifier = { target = USA modifier = negative_200 }
+set_truce = { target = USA days = 1129 }
+add_opinion_modifier = { target = VEN modifier = negative_10 }
+add_opinion_modifier = { target = X04 modifier = negative_91 }
+add_opinion_modifier = { target = X05 modifier = positive_30 }
+add_opinion_modifier = { target = X09 modifier = positive_30 }
+add_opinion_modifier = { target = X12 modifier = negative_10 }
+add_opinion_modifier = { target = X15 modifier = positive_30 }
+add_opinion_modifier = { target = X17 modifier = negative_10 }
+add_opinion_modifier = { target = X18 modifier = negative_10 }
+add_opinion_modifier = { target = X19 modifier = positive_200 }
+add_opinion_modifier = { target = YEM modifier = positive_200 }
+give_military_access = YEM
+
+
+add_ideas = {
+	TUR_monarch
+	volunteer_only
+	civilian_economy
+	export_focus
+	culture_turkish
+}
+set_stability = 0.60
+set_war_support = 0.50
+create_country_leader = {
+	name = "Kamil Bey"
+	desc = "POLITICS_KAMIL_BEY_DESC"
+	picture = "gfx/leaders/KUR/portrait_kur_seyid_riza.dds"
+	expire = "1965.1.1"
+	ideology = socialism
+	traits = {
+	}
+}
+create_corps_commander = {
+	name = "Suleyman Bey"
+	traits = { }
+	skill = 4
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 5
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Bekir Pasha"
+	traits = { }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Riza Pasha"
+	traits = { }
+	skill = 2
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 3
+	logistics_skill = 1
+}
+
+create_navy_leader = {
+	name = "Arif Bey"
+	traits = { }
+	skill = 3
+	attack_skill = 5
+	defense_skill = 3
+	maneuvering_skill = 1
+	coordination_skill = 1
+}
+
+if = {
+	limit = {
+		has_dlc = "La Resistance"
+	}
+	create_operative_leader = {
+		name = "Çiltanesi Bey"
+		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_female_1.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { TUR }
+	}
+
+	create_operative_leader = {
+		name = "Özgul Pasha"
+		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_female_2.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { TUR }
+	}
+
+	create_operative_leader = {
+		name = "Çiçek Bey"
+		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_female_3.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { TUR }
+	}
+
+	create_operative_leader = {
+		name = "Çilen Pasha"
+		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_female_4.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { TUR }
+	}
+
+	create_operative_leader = {
+		name = "Çiçek Pasha"
+		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_female_5.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { TUR }
+	}
+
+	create_operative_leader = {
+		name = "Çiçek Pasha"
+		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_female_6.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { TUR }
+	}
+
+	create_operative_leader = {
+		name = "Ali Pasha"
+		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_male_1.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { TUR }
+	}
+
+	create_operative_leader = {
+		name = "Kamil Pasha"
+		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_male_2.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { TUR }
+	}
+
+	create_operative_leader = {
+		name = "Pertev Pasha"
+		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_male_3.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { TUR }
+	}
+
+	create_operative_leader = {
+		name = "Mithat Pasha"
+		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_male_4.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { TUR }
+	}
+
+	create_operative_leader = {
+		name = "Said Bey"
+		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_male_5.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { TUR }
+	}
+
+	create_operative_leader = {
+		name = "Ali Bey"
+		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_male_6.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { TUR }
+	}
+
+}
+### VARIANTS ###
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+	create_equipment_variant = {
+		name = "Early Battleship"
+		type = battleship_1
+		upgrades = {
+			ship_armor_upgrade = 1
+			ship_engine_upgrade = 1
+			ship_gun_upgrade = 1
+			ship_reliability_upgrade = 1
+		}
+	}
+
+	create_equipment_variant = {
+		name = "Early Destroyer"
+		type = destroyer_1
+		upgrades = {
+			destroyer_engine_upgrade = 1
+			ship_ASW_upgrade = 1
+			ship_anti_air_upgrade = 1
+			ship_torpedo_upgrade = 1
+		}
+	}
+
+	create_equipment_variant = {
+		name = "Early Heavy Cruiser"
+		type = heavy_cruiser_1
+		upgrades = {
+			ship_armor_upgrade = 1
+			ship_engine_upgrade = 1
+			ship_gun_upgrade = 1
+			ship_reliability_upgrade = 1
+		}
+	}
+
+	create_equipment_variant = {
+		name = "Early Light Cruiser"
+		type = light_cruiser_1
+		upgrades = {
+			ship_anti_air_upgrade = 1
+			ship_engine_upgrade = 1
+			ship_gun_upgrade = 1
+			ship_reliability_upgrade = 1
+		}
+	}
+
+	create_equipment_variant = {
+		name = "Early Submarine"
+		type = submarine_1
+		upgrades = {
+			ship_reliability_upgrade = 1
+			sub_engine_upgrade = 1
+			sub_stealth_upgrade = 1
+			sub_torpedo_upgrade = 1
+		}
+	}
+
+}
+if = {
+	limit = { has_dlc = "Man the Guns" }
+	create_equipment_variant = {
+		name = "Early Destroyer"
+		type = ship_hull_light_1
+		name_group = TUR_DD_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_battery_slot = ship_light_battery_1
+			fixed_ship_engine_slot = light_ship_engine_1
+			fixed_ship_fire_control_system_slot = empty
+			fixed_ship_radar_slot = ship_sonar_1
+			fixed_ship_torpedo_slot = ship_torpedo_1
+			mid_1_custom_slot = ship_depth_charge_1
+			rear_1_custom_slot = empty
+		}
+	}
+	create_equipment_variant = {
+		name = "Early Heavy Cruiser"
+		type = ship_hull_cruiser_1
+		name_group = TUR_CA_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_armor_slot = ship_armor_cruiser_1
+			fixed_ship_battery_slot = ship_medium_battery_1
+			fixed_ship_engine_slot = cruiser_ship_engine_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_secondaries_slot = ship_secondaries_1
+			mid_1_custom_slot = ship_secondaries_1
+			mid_2_custom_slot = ship_medium_battery_1
+			rear_1_custom_slot = empty
+		}
+	}
+	create_equipment_variant = {
+		name = "Early Light Cruiser"
+		type = ship_hull_cruiser_1
+		name_group = TUR_CL_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_armor_slot = ship_armor_cruiser_1
+			fixed_ship_battery_slot = ship_light_battery_1
+			fixed_ship_engine_slot = cruiser_ship_engine_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = ship_sonar_1
+			fixed_ship_secondaries_slot = ship_secondaries_1
+			mid_1_custom_slot = ship_torpedo_1
+			mid_2_custom_slot = ship_light_battery_1
+			rear_1_custom_slot = empty
+		}
+	}
+}

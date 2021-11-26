@@ -1,0 +1,38 @@
+
+state={
+	id=285
+	name="STATE_285"
+	resources={
+		aluminium=15.000
+		steel=28.000
+	}
+
+	history={
+		owner = ITA
+		victory_points = {
+			11584 2 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			arms_factory = 1
+			dockyard = 1
+			11584 = {
+				naval_base = 10
+			}
+			air_base = 1
+
+		}
+		add_core_of = ITA
+		add_claim_by = AUS
+	}
+
+	provinces={
+		628 3604 3657 6656 9582 9613 11584 
+	}
+	manpower=3994716
+	buildings_max_level_factor=1.000
+	state_category=large_city
+
+	local_supplies=10.0
+}

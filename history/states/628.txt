@@ -1,0 +1,32 @@
+
+state={
+	id=628
+	name="STATE_628"
+
+	history={
+		owner = USA
+		victory_points = {
+			4180 1 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			arms_factory = 0
+			4180 = {
+				naval_base = 10
+			}
+			air_base = 1
+
+		}
+		add_core_of = USA
+	}
+
+	provinces={
+		4180 7112 7195 10048 12021 
+	}
+	manpower=616130
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

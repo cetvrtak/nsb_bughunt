@@ -1,0 +1,37 @@
+
+state={
+	id=384
+	name="STATE_384"
+	resources={
+		steel=8.000
+		tungsten=300.000
+	}
+
+	history={
+		owner = POR
+		victory_points = {
+			9817 1 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 0
+			arms_factory = 0
+			dockyard = 1
+			9817 = {
+				naval_base = 6
+			}
+			air_base = 1
+
+		}
+		add_core_of = POR
+	}
+
+	provinces={
+		724 845 877 889 938 3892 3969 6818 6921 6941 6996 9787 9817 11673 11885 
+	}
+	manpower=1192604
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

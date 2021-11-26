@@ -1,0 +1,33 @@
+
+state={
+	id=155
+	name="STATE_155"
+
+	history={
+		owner = ENG
+		victory_points = {
+			11221 7 
+		}
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 7
+			arms_factory = 3
+			dockyard = 2
+			221 = {
+				naval_base = 10
+			}
+			air_base = 3
+
+		}
+		add_core_of = ENG
+	}
+
+	provinces={
+		221 271 296 322 3287 11221 11253 11374 
+	}
+	manpower=6824732
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+
+	local_supplies=10.0
+}

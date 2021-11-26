@@ -1,0 +1,29 @@
+
+state={
+	id=317
+	name="STATE_317"
+
+	history={
+		owner = LAO
+		victory_points = {
+			4613 15 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 0
+			air_base = 5
+
+		}
+		add_core_of = LAO
+	}
+
+	provinces={
+		1374 1563 1577 4339 4554 4568 4596 4613 7075 7103 7218 7356 7426 9961 10238 10496 12210 12392 12433 
+	}
+	manpower=319252
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

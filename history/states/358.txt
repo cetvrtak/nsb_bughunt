@@ -1,0 +1,32 @@
+
+state={
+	id=358
+	name="STATE_358"
+	resources={
+		steel=1.000
+	}
+
+	history={
+		owner = X13
+		victory_points = {
+			10905 1 
+		}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+
+		}
+		add_core_of = X13
+	}
+
+	provinces={
+		1910 2041 2084 7273 7316 8005 10821 10905 12754 12884 
+	}
+	manpower=1576948
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

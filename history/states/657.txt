@@ -1,0 +1,31 @@
+
+state={
+	id=657
+	name="STATE_657"
+
+	history={
+		owner = USA
+		victory_points = {
+			1280 0 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 0
+			arms_factory = 0
+			1280 = {
+				naval_base = 10
+			}
+			air_base = 1
+
+		}
+	}
+
+	provinces={
+		1280 
+	}
+	manpower=12712
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

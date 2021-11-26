@@ -1,0 +1,23 @@
+
+state={
+	id=474
+	name="STATE_474"
+	resources={
+		steel=1.000
+	}
+	impassable = yes
+
+	history={
+		owner = X37
+		add_core_of = X37
+	}
+
+	provinces={
+		1115 2068 10725 10868 
+	}
+	manpower=125764
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+
+	local_supplies=10.0
+}

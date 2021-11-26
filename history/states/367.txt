@@ -1,0 +1,37 @@
+
+state={
+	id=367
+	name="STATE_367"
+	resources={
+		aluminium=0.000
+		oil=4.000
+		steel=2.000
+	}
+
+	history={
+		owner = PER
+		victory_points = {
+			4959 1 
+		}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 0
+			arms_factory = 0
+			4959 = {
+				naval_base = 2
+			}
+			air_base = 0
+
+		}
+		add_core_of = PER
+	}
+
+	provinces={
+		1889 2070 4891 4959 7982 10782 12895 13082 
+	}
+	manpower=741356
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+
+	local_supplies=10.0
+}

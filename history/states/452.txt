@@ -1,0 +1,35 @@
+
+state={
+	id=452
+	name="STATE_452"
+	resources={
+		chromium=15.000
+	}
+
+	history={
+		owner = SOV
+		victory_points = {
+			1599 1 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 0
+			772 = {
+				naval_base = 8
+			}
+			air_base = 0
+
+		}
+		add_core_of = SOV
+	}
+
+	provinces={
+		654 672 772 1455 1530 1599 3656 3658 3667 4534 4605 6436 6669 6671 6674 9626 9632 9702 11599 11609 11617 11647 12309 
+	}
+	manpower=1063148
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

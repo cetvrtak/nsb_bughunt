@@ -1,0 +1,34 @@
+
+state={
+	id=551
+	name="STATE_551"
+	resources={
+		chromium=20.000
+		steel=4.000
+		tungsten=6.000
+	}
+
+	history={
+		owner = X44
+		victory_points = {
+			10929 0 
+		}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+
+		}
+		add_core_of = X44
+	}
+
+	provinces={
+		1874 2151 2216 4851 7842 10929 
+	}
+	manpower=709736
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+
+	local_supplies=10.0
+}

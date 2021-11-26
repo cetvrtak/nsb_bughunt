@@ -1,0 +1,32 @@
+
+state={
+	id=649
+	name="STATE_649"
+
+	history={
+		owner = X47
+		victory_points = {
+			12148 0 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 0
+			arms_factory = 0
+			10188 = {
+				naval_base = 1
+			}
+			air_base = 1
+
+		}
+		add_core_of = X47
+	}
+
+	provinces={
+		10188 12148 
+	}
+	manpower=59716
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

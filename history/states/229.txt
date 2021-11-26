@@ -1,0 +1,32 @@
+
+state={
+	id=229
+	name="STATE_229"
+
+	history={
+		owner = FRA
+		victory_points = {
+			177 1 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			177 = {
+				naval_base = 10
+			}
+			air_base = 1
+
+		}
+		add_core_of = FRA
+	}
+
+	provinces={
+		177 
+	}
+	manpower=480052
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+
+	local_supplies=10.0
+}

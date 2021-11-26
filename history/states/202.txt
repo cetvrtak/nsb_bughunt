@@ -1,0 +1,34 @@
+
+state={
+	id=202
+	name="STATE_202"
+	resources={
+		aluminium=5.000
+		rubber=1.000
+		steel=1.000
+	}
+
+	history={
+		owner = X25
+		victory_points = {
+			12751 0 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 1
+
+		}
+		add_core_of = X25
+	}
+
+	provinces={
+		2012 10812 10829 10915 12751 
+	}
+	manpower=863468
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+
+	local_supplies=10.0
+}

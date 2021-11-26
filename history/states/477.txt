@@ -1,0 +1,20 @@
+
+state={
+	id=477
+	name="STATE_477"
+	impassable = yes
+
+	history={
+		owner = X33
+		add_core_of = X33
+	}
+
+	provinces={
+		4902 5136 10893 
+	}
+	manpower=655024
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+
+	local_supplies=10.0
+}

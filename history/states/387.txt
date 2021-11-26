@@ -1,0 +1,31 @@
+
+state={
+	id=387
+	name="STATE_387"
+
+	history={
+		owner = POR
+		victory_points = {
+			1273 0 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			1273 = {
+				naval_base = 6
+			}
+			air_base = 1
+
+		}
+	}
+
+	provinces={
+		1273 
+	}
+	manpower=664376
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+
+	local_supplies=10.0
+}

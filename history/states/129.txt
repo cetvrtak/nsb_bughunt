@@ -1,0 +1,36 @@
+
+state={
+	id=129
+	name="STATE_129"
+	resources={
+		oil=2.000
+		rubber=12.000
+	}
+
+	history={
+		owner = ECU
+		victory_points = {
+			12798 15 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 0
+			8252 = {
+				naval_base = 2
+			}
+			air_base = 6
+
+		}
+		add_core_of = ECU
+	}
+
+	provinces={
+		5051 5120 8047 8075 8252 10888 10942 11020 12798 
+	}
+	manpower=866248
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

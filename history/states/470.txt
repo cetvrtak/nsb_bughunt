@@ -1,0 +1,20 @@
+
+state={
+	id=470
+	name="STATE_470"
+	impassable = yes
+
+	history={
+		owner = SOV
+		add_core_of = SOV
+	}
+
+	provinces={
+		1095 1958 2049 7041 8088 10731 12711 12842 
+	}
+	manpower=176840
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+
+	local_supplies=10.0
+}

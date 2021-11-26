@@ -1,0 +1,36 @@
+
+state={
+	id=403
+	name="STATE_403"
+	resources={
+		steel=0.000
+	}
+
+	history={
+		owner = X29
+		victory_points = {
+			5210 10 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 0
+			arms_factory = 0
+			5210 = {
+				naval_base = 6
+			}
+			air_base = 5
+
+		}
+		add_core_of = X29
+		add_claim_by = OMA
+	}
+
+	provinces={
+		2196 5210 8183 
+	}
+	manpower=793280
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+
+	local_supplies=10.0
+}

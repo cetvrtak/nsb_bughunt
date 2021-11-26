@@ -1,0 +1,34 @@
+
+state={
+	id=54
+	name="STATE_54"
+	resources={
+		oil=3.000
+		steel=4.000
+		tungsten=15.000
+	}
+
+	history={
+		owner = CAN
+		victory_points = {
+			7696 1 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			arms_factory = 0
+			air_base = 1
+
+		}
+		add_core_of = CAN
+	}
+
+	provinces={
+		2407 7696 7830 7901 10527 10703 13075 
+	}
+	manpower=762964
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

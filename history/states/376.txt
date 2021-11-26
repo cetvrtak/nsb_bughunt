@@ -1,0 +1,36 @@
+
+state={
+	id=376
+	name="STATE_376"
+	resources={
+		chromium=6.000
+		steel=4.000
+	}
+
+	history={
+		owner = PHI
+		victory_points = {
+			7419 1 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			arms_factory = 0
+			10302 = {
+				naval_base = 4
+			}
+			air_base = 1
+
+		}
+		add_core_of = PHI
+	}
+
+	provinces={
+		1224 1261 1311 1340 1368 4269 4373 4429 7307 7385 7419 7423 10145 10186 10302 12112 12118 12153 
+	}
+	manpower=1859808
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}
